@@ -190,7 +190,7 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    PORT = 8000
+    PORT = int(os.environ.get("PORT", 8000))
     srv  = HTTPServer(("0.0.0.0", PORT), Handler)
     print("\n" + "═"*52)
     print("  🔋 EV CHARGE PREDICTOR")
