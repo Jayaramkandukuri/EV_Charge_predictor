@@ -288,5 +288,5 @@ Features      : 15 (8 from dataset + 7 engineered)
 ## 👤 Author
 
 **Jayaram Kandukuri**
-B.Tech [ECE] | [SRMAP University AP]
+B.Tech [ECE] | [SRM University AP]
 📧 jayaramknss@gmail.com
