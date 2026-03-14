@@ -1,0 +1,1001 @@
+User_ID,Vehicle_Model,Battery_Capacity_kWh,Charging_Station_ID,Charging_Station_Location,Energy_Consumed_kWh,Charging_Duration_Hours,Charging_Rate_kW,Charging_Cost_USD,Time_of_Day,Day_of_Week,State_of_Charge_Start_%,State_of_Charge_End_%,Distance_Driven_km,Temperature_C,Vehicle_Age_years,Charger_Type,User_Type
+U1000,Tesla Model Y,75.0,CS972,Highway,16.56,2.62,6.34,2.77,Evening,Saturday,62.7,84.2,33.7,12.4,2,Level 2,Commuter
+U1001,Chevy Bolt EV,65.0,CS684,Workplace,48.42,16.0,3.07,6.94,Night,Monday,10.5,83.3,11.3,14.2,4,Level 1,Casual Driver
+U1002,Nissan Leaf,40.0,CS441,Home,19.57,6.34,3.04,2.05,Evening,Tuesday,32.1,79.8,23.7,13.6,7,Level 1,Commuter
+U1003,Tesla Model Y,75.0,CS504,Highway,45.68,6.91,6.6,8.6,Afternoon,Thursday,22.6,80.4,28.4,7.3,1,Level 2,Commuter
+U1004,Tesla Model Y,75.0,CS508,Home,46.97,1.19,44.74,13.26,Night,Thursday,21.5,82.8,99.7,14.5,6,DC Fast,Long-Distance Traveler
+U1005,Nissan Leaf,40.0,CS737,Home,27.71,0.62,44.17,8.31,Night,Saturday,31.0,95.6,54.2,3.3,3,DC Fast,Long-Distance Traveler
+U1006,Tesla Model Y,75.0,CS373,Home,56.6,1.16,49.48,18.37,Night,Wednesday,8.0,83.3,45.0,19.4,4,DC Fast,Casual Driver
+U1007,Audi e-tron,95.0,CS202,Workplace,45.41,0.87,47.11,17.22,Morning,Thursday,34.3,79.4,14.8,6.0,1,DC Fast,Commuter
+U1008,Kia EV6,77.4,CS269,Home,48.11,6.75,7.19,9.85,Morning,Saturday,17.4,78.5,22.9,24.3,2,Level 2,Commuter
+U1009,Tesla Model X,100.0,CS927,Public,62.11,1.31,47.45,20.34,Afternoon,Friday,22.3,80.8,109.1,5.6,2,DC Fast,Commuter
+U1010,BMW i3,42.2,CS611,Highway,19.52,0.44,46.18,5.35,Night,Wednesday,41.4,84.5,15.5,2.9,2,DC Fast,Commuter
+U1011,Tesla Model Y,75.0,CS268,Workplace,32.64,5.47,6.47,7.15,Night,Saturday,56.4,99.3,124.0,23.4,5,Level 2,Casual Driver
+U1012,Tesla Model Y,75.0,CS192,Public,37.61,0.86,49.09,12.37,Evening,Wednesday,45.4,93.2,86.2,8.6,6,DC Fast,Long-Distance Traveler
+U1013,Hyundai Ioniq 5,72.6,CS201,Home,44.21,14.73,3.02,5.9,Evening,Sunday,23.8,82.3,7.5,29.6,5,Level 1,Casual Driver
+U1014,Tesla Model 3,75.0,CS477,Highway,51.82,16.65,3.15,5.44,Night,Monday,15.7,83.4,34.3,15.1,8,Level 1,Commuter
+U1015,Tesla Model 3,75.0,CS837,Home,40.43,5.89,6.83,6.76,Afternoon,Tuesday,30.3,81.0,127.1,4.9,1,Level 2,Long-Distance Traveler
+U1016,Tesla Model 3,75.0,CS196,Workplace,47.81,7.7,6.6,8.01,Night,Sunday,34.5,97.5,46.2,22.9,2,Level 2,Long-Distance Traveler
+U1017,Audi e-tron,95.0,CS910,Home,33.1,0.75,49.17,9.79,Evening,Friday,47.4,81.0,33.4,11.4,5,DC Fast,Commuter
+U1018,Chevy Bolt EV,65.0,CS992,Workplace,42.78,6.04,7.11,10.35,Night,Friday,19.5,84.6,12.2,17.1,3,Level 2,Casual Driver
+U1019,Audi e-tron,95.0,CS942,Public,45.56,14.38,3.28,4.48,Night,Thursday,46.8,91.3,63.0,2.1,3,Level 1,Long-Distance Traveler
+U1020,Kia EV6,77.4,CS755,Home,44.62,7.34,6.48,10.32,Night,Saturday,43.3,99.7,36.0,25.7,1,Level 2,Long-Distance Traveler
+U1021,BMW i3,42.2,CS180,Highway,29.85,4.32,7.02,5.97,Night,Friday,12.1,81.7,33.0,15.9,3,Level 2,Commuter
+U1022,Tesla Model Y,75.0,CS694,Public,40.46,6.11,6.9,8.81,Night,Tuesday,42.0,93.8,223.3,29.8,5,Level 2,Commuter
+U1023,BMW i3,42.2,CS265,Home,21.57,0.47,47.14,9.13,Night,Friday,45.1,95.7,131.9,22.5,6,DC Fast,Commuter
+U1024,Tesla Model 3,75.0,CS128,Home,61.47,9.71,6.37,11.1,Morning,Wednesday,8.1,81.3,146.8,-6.8,4,Level 2,Commuter
+U1025,Nissan Leaf,40.0,CS181,Workplace,29.83,4.52,7.0,4.62,Morning,Sunday,22.0,93.4,27.6,9.3,1,Level 2,Commuter
+U1026,Tesla Model 3,75.0,CS147,Home,28.57,0.6,45.82,10.43,Night,Wednesday,48.2,84.1,29.5,5.9,5,DC Fast,Commuter
+U1027,Hyundai Ioniq 5,72.6,CS444,Highway,33.43,0.69,45.48,14.14,Night,Thursday,38.6,83.4,19.7,13.4,2,DC Fast,Commuter
+U1028,Tesla Model Y,75.0,CS415,Home,38.41,5.88,6.61,7.15,Night,Sunday,35.2,83.9,21.2,7.7,2,Level 2,Commuter
+U1029,Tesla Model X,100.0,CS675,Home,39.73,0.77,48.71,11.72,Afternoon,Thursday,44.3,82.1,25.3,32.2,1,DC Fast,Commuter
+U1030,Tesla Model S,100.0,CS418,Home,67.77,10.71,6.6,9.46,Afternoon,Thursday,30.7,92.5,39.2,42.0,5,Level 2,Casual Driver
+U1031,Chevy Bolt EV,65.0,CS919,Home,44.05,6.9,6.63,6.9,Evening,Sunday,28.7,91.1,96.2,0.5,8,Level 2,Commuter
+U1032,Tesla Model Y,75.0,CS690,Workplace,26.89,0.57,48.74,11.01,Night,Monday,47.5,83.2,37.6,18.9,1,DC Fast,Commuter
+U1033,Tesla Model Y,75.0,CS655,Highway,28.22,0.65,44.44,10.73,Evening,Wednesday,62.3,99.1,73.2,14.1,3,DC Fast,Commuter
+U1034,Tesla Model 3,75.0,CS749,Home,39.52,0.88,47.52,15.54,Night,Friday,49.4,100.0,81.4,10.0,1,DC Fast,Commuter
+U1035,Nissan Leaf,40.0,CS857,Public,19.27,2.87,6.77,3.73,Evening,Friday,34.8,81.1,31.2,10.2,4,Level 2,Commuter
+U1036,Nissan Leaf,40.0,CS320,Workplace,21.67,7.68,3.01,2.36,Evening,Tuesday,46.0,97.7,58.7,31.5,8,Level 1,Commuter
+U1037,Nissan Leaf,40.0,CS300,Highway,29.2,0.59,46.24,9.67,Evening,Tuesday,30.4,99.2,18.0,34.5,7,DC Fast,Commuter
+U1038,Hyundai Ioniq 5,72.6,CS688,Workplace,58.62,1.22,48.11,20.57,Night,Sunday,8.0,82.1,29.0,-0.5,2,DC Fast,Casual Driver
+U1039,Nissan Leaf,40.0,CS214,Home,27.24,4.1,7.07,4.19,Night,Saturday,24.3,90.4,20.6,27.3,1,Level 2,Commuter
+U1040,Tesla Model X,100.0,CS673,Workplace,55.65,8.02,7.03,12.54,Night,Wednesday,29.3,82.7,32.2,9.8,2,Level 2,Long-Distance Traveler
+U1041,Tesla Model Y,75.0,CS230,Public,15.87,2.39,6.7,3.71,Night,Wednesday,59.3,79.2,51.3,5.1,2,Level 2,Long-Distance Traveler
+U1042,Nissan Leaf,40.0,CS451,Public,16.4,5.49,3.07,2.54,Morning,Monday,49.5,90.3,12.7,21.1,2,Level 1,Casual Driver
+U1043,Tesla Model 3,75.0,CS840,Workplace,31.5,0.79,44.7,8.45,Evening,Saturday,42.5,82.0,21.1,4.7,7,DC Fast,Casual Driver
+U1044,Nissan Leaf,40.0,CS103,Highway,22.03,3.08,7.15,5.12,Afternoon,Sunday,27.1,80.8,15.4,26.3,6,Level 2,Commuter
+U1045,Nissan Leaf,40.0,CS463,Highway,20.22,2.84,7.16,3.03,Evening,Tuesday,34.2,83.9,13.1,16.1,3,Level 2,Commuter
+U1046,Tesla Model 3,75.0,CS854,Public,54.09,18.35,3.14,6.22,Night,Saturday,27.5,98.9,35.3,22.6,1,Level 1,Commuter
+U1047,Tesla Model 3,75.0,CS927,Home,31.49,4.86,6.61,6.58,Night,Friday,44.3,84.2,15.3,7.4,1,Level 2,Commuter
+U1048,Tesla Model S,100.0,CS514,Home,56.57,8.39,6.74,11.49,Night,Thursday,24.8,81.0,27.8,21.6,6,Level 2,Casual Driver
+U1049,Tesla Model X,100.0,CS306,Public,68.63,11.17,6.53,10.36,Night,Thursday,28.1,96.6,40.2,19.5,5,Level 2,Commuter
+U1050,Tesla Model Y,75.0,CS961,Workplace,43.13,1.01,45.36,18.86,Night,Thursday,27.8,84.1,107.7,15.0,7,DC Fast,Commuter
+U1051,Tesla Model Y,75.0,CS489,Home,43.56,6.14,7.19,7.66,Evening,Tuesday,27.2,83.5,76.2,27.5,1,Level 2,Casual Driver
+U1052,Kia EV6,77.4,CS780,Workplace,39.85,5.82,6.9,7.15,Evening,Tuesday,32.3,81.5,45.4,9.0,1,Level 2,Long-Distance Traveler
+U1053,Tesla Model 3,75.0,CS206,Public,53.93,8.5,6.43,8.22,Night,Friday,17.4,84.5,12.5,3.3,4,Level 2,Commuter
+U1054,Tesla Model 3,75.0,CS265,Workplace,33.68,5.36,6.64,6.02,Evening,Monday,51.5,95.2,72.4,13.3,2,Level 2,Commuter
+U1055,Tesla Model 3,75.0,CS822,Highway,39.07,6.02,6.53,9.36,Night,Thursday,27.8,78.6,12.7,26.2,6,Level 2,Commuter
+U1056,Nissan Leaf,40.0,CS413,Workplace,20.19,0.5,48.54,6.5,Afternoon,Wednesday,43.5,93.0,26.1,25.2,2,DC Fast,Commuter
+U1057,Tesla Model S,100.0,CS251,Public,72.1,1.78,45.41,26.11,Night,Saturday,30.2,97.5,20.9,3.3,5,DC Fast,Commuter
+U1058,Tesla Model Y,75.0,CS397,Highway,34.1,10.59,3.23,3.3,Morning,Monday,34.6,78.4,37.2,11.1,1,Level 1,Commuter
+U1059,Tesla Model S,100.0,CS455,Public,78.51,1.75,46.96,25.87,Night,Saturday,19.8,97.6,25.6,17.7,8,DC Fast,Commuter
+U1060,Tesla Model 3,75.0,CS984,Highway,31.66,4.39,7.17,7.17,Afternoon,Monday,40.2,81.2,37.0,13.2,5,Level 2,Long-Distance Traveler
+U1061,Tesla Model 3,75.0,CS927,Workplace,53.73,1.07,48.39,14.24,Afternoon,Friday,17.3,82.3,137.0,-3.0,5,DC Fast,Casual Driver
+U1062,Nissan Leaf,40.0,CS969,Workplace,20.06,2.73,7.14,3.91,Night,Friday,30.8,80.6,101.7,18.4,2,Level 2,Casual Driver
+U1063,Tesla Model 3,75.0,CS360,Public,50.17,8.12,6.48,10.32,Evening,Saturday,29.8,93.3,17.9,7.4,5,Level 2,Commuter
+U1064,Tesla Model 3,75.0,CS202,Public,17.0,0.41,47.52,6.15,Afternoon,Saturday,75.0,97.3,19.9,24.1,4,DC Fast,Commuter
+U1065,Tesla Model X,100.0,CS466,Home,64.77,1.34,49.92,20.81,Afternoon,Friday,33.5,93.5,23.5,1.6,4,DC Fast,Casual Driver
+U1066,BMW i3,42.2,CS143,Public,25.29,3.71,6.78,4.12,Night,Sunday,20.5,80.2,252.7,20.7,5,Level 2,Commuter
+U1067,Tesla Model 3,75.0,CS504,Public,33.61,0.72,45.03,10.49,Evening,Sunday,38.7,82.1,21.3,27.5,3,DC Fast,Casual Driver
+U1068,Audi e-tron,95.0,CS810,Workplace,44.6,0.91,48.3,12.6,Afternoon,Saturday,34.3,80.5,122.6,15.7,3,DC Fast,Commuter
+U1069,Tesla Model 3,75.0,CS561,Public,33.0,5.06,6.53,7.86,Night,Friday,38.5,80.6,24.4,9.3,1,Level 2,Long-Distance Traveler
+U1070,Kia EV6,77.4,CS558,Workplace,36.29,5.17,7.05,6.36,Evening,Thursday,34.3,80.8,43.9,18.3,2,Level 2,Long-Distance Traveler
+U1071,Tesla Model Y,75.0,CS163,Workplace,21.91,0.38,47.37,8.59,Evening,Monday,49.9,78.2,63.1,12.8,2,DC Fast,Commuter
+U1072,Kia EV6,77.4,CS245,Highway,34.92,5.12,6.88,5.82,Night,Thursday,39.8,81.8,70.3,2.8,7,Level 2,Commuter
+U1073,Nissan Leaf,40.0,CS204,Workplace,18.95,2.83,6.68,3.44,Night,Tuesday,33.7,79.3,106.9,10.7,6,Level 2,Commuter
+U1074,Chevy Bolt EV,65.0,CS570,Public,28.67,4.19,7.02,6.64,Evening,Thursday,41.3,83.1,174.3,32.7,3,Level 2,Long-Distance Traveler
+U1075,Tesla Model 3,75.0,CS367,Highway,35.09,5.05,6.82,8.36,Afternoon,Thursday,33.8,80.0,174.3,16.5,3,Level 2,Commuter
+U1076,Tesla Model S,100.0,CS407,Workplace,43.61,6.1,7.16,7.6,Afternoon,Monday,37.5,80.3,71.1,24.9,1,Level 2,Casual Driver
+U1077,Tesla Model 3,75.0,CS228,Highway,63.38,23.39,2.91,8.34,Night,Sunday,22.4,99.7,15.6,-1.4,8,Level 1,Casual Driver
+U1078,Tesla Model S,100.0,CS688,Home,34.26,11.4,3.06,5.26,Evening,Saturday,49.2,83.1,31.1,22.7,5,Level 1,Commuter
+U1079,Tesla Model 3,75.0,CS334,Home,39.2,0.8,48.41,17.25,Morning,Friday,43.0,94.6,20.9,16.6,6,DC Fast,Commuter
+U1080,Tesla Model S,100.0,CS935,Home,61.25,8.84,6.92,12.54,Night,Friday,21.1,78.6,55.1,4.5,2,Level 2,Casual Driver
+U1081,Tesla Model X,100.0,CS387,Public,61.16,9.62,6.85,11.53,Afternoon,Thursday,41.3,99.6,19.0,8.2,7,Level 2,Commuter
+U1082,Tesla Model 3,75.0,CS809,Public,58.59,1.26,47.21,17.41,Night,Friday,9.8,84.2,7.9,7.9,2,DC Fast,Casual Driver
+U1083,Nissan Leaf,40.0,CS775,Highway,33.31,5.04,6.99,5.4,Evening,Monday,20.4,97.1,97.0,0.5,2,Level 2,Casual Driver
+U1084,Tesla Model Y,75.0,CS550,Workplace,15.16,0.36,47.28,5.3,Evening,Friday,59.2,78.7,61.1,11.7,7,DC Fast,Commuter
+U1085,Tesla Model S,100.0,CS370,Public,65.8,10.37,6.65,11.0,Afternoon,Saturday,30.9,93.0,29.3,5.7,5,Level 2,Commuter
+U1086,Tesla Model Y,75.0,CS373,Workplace,63.91,10.4,6.46,12.15,Afternoon,Friday,15.4,92.6,30.1,-3.3,6,Level 2,Casual Driver
+U1087,Tesla Model 3,75.0,CS472,Highway,46.83,0.97,49.86,16.63,Night,Friday,33.3,91.7,9.1,36.2,1,DC Fast,Commuter
+U1088,Tesla Model Y,75.0,CS577,Home,39.99,6.48,6.36,8.82,Afternoon,Saturday,40.0,90.5,9.6,7.2,8,Level 2,Commuter
+U1089,Hyundai Ioniq 5,72.6,CS899,Workplace,51.03,1.03,49.7,21.9,Evening,Thursday,25.4,93.0,28.4,29.8,4,DC Fast,Casual Driver
+U1090,Tesla Model S,100.0,CS132,Workplace,17.27,0.41,48.31,5.32,Morning,Wednesday,65.8,82.2,25.8,32.3,2,DC Fast,Commuter
+U1091,Nissan Leaf,40.0,CS458,Public,28.24,0.64,46.48,12.41,Afternoon,Saturday,29.3,98.8,33.8,15.9,2,DC Fast,Commuter
+U1092,Tesla Model 3,75.0,CS467,Home,42.27,13.65,3.13,5.27,Evening,Friday,32.6,84.4,28.5,-0.4,2,Level 1,Long-Distance Traveler
+U1093,Chevy Bolt EV,65.0,CS788,Public,47.45,1.12,46.26,16.97,Night,Tuesday,29.9,97.2,14.1,39.4,6,DC Fast,Commuter
+U1094,Tesla Model S,100.0,CS814,Highway,72.71,11.76,6.45,17.73,Afternoon,Tuesday,19.2,91.3,42.1,18.0,1,Level 2,Commuter
+U1095,Tesla Model 3,75.0,CS884,Home,46.58,1.05,45.63,15.43,Night,Wednesday,24.6,83.7,14.2,7.6,3,DC Fast,Casual Driver
+U1096,Tesla Model Y,75.0,CS400,Home,30.86,4.37,7.06,5.52,Evening,Tuesday,40.4,79.2,34.2,6.1,4,Level 2,Casual Driver
+U1097,Tesla Model 3,75.0,CS666,Workplace,32.68,0.68,49.12,8.68,Afternoon,Wednesday,54.0,95.3,32.6,6.5,5,DC Fast,Commuter
+U1098,BMW i3,42.2,CS349,Workplace,21.63,3.3,6.69,4.07,Night,Saturday,41.3,91.4,33.9,14.5,2,Level 2,Long-Distance Traveler
+U1099,Tesla Model 3,75.0,CS948,Home,29.77,4.13,7.12,4.44,Evening,Monday,41.9,79.8,62.7,8.8,1,Level 2,Casual Driver
+U1100,Nissan Leaf,40.0,CS615,Highway,21.43,0.51,45.54,7.16,Night,Wednesday,46.1,96.1,48.3,3.2,6,DC Fast,Commuter
+U1101,Tesla Model S,100.0,CS833,Workplace,43.46,14.62,3.08,5.5,Evening,Sunday,47.8,90.2,75.5,13.6,1,Level 1,Commuter
+U1102,Chevy Bolt EV,65.0,CS186,Workplace,31.42,4.86,6.64,4.9,Morning,Wednesday,34.4,82.4,57.8,18.2,7,Level 2,Commuter
+U1103,Kia EV6,77.4,CS787,Workplace,32.6,0.66,45.56,12.64,Evening,Tuesday,36.3,78.1,19.6,18.0,7,DC Fast,Commuter
+U1104,Tesla Model S,100.0,CS563,Workplace,81.29,13.18,6.51,18.89,Evening,Friday,17.0,94.2,34.3,32.8,3,Level 2,Commuter
+U1105,Tesla Model Y,75.0,CS812,Workplace,6.76,1.03,6.82,0.9,Evening,Saturday,75.0,83.0,23.0,-8.1,7,Level 2,Commuter
+U1106,Tesla Model Y,75.0,CS309,Workplace,43.66,14.23,3.17,5.24,Evening,Thursday,39.9,91.3,52.3,-9.6,4,Level 1,Long-Distance Traveler
+U1107,Tesla Model Y,75.0,CS153,Workplace,30.18,10.03,2.97,3.52,Night,Wednesday,43.0,79.6,7.6,-2.6,3,Level 1,Commuter
+U1108,Tesla Model S,100.0,CS907,Highway,80.11,13.03,6.44,16.96,Afternoon,Sunday,14.5,93.5,15.2,23.5,5,Level 2,Commuter
+U1109,Kia EV6,77.4,CS995,Workplace,24.65,0.53,49.07,6.96,Night,Saturday,54.3,84.7,75.1,31.5,1,DC Fast,Commuter
+U1110,Tesla Model Y,75.0,CS901,Home,27.63,4.22,6.61,4.08,Evening,Sunday,44.4,79.8,38.4,10.2,1,Level 2,Casual Driver
+U1111,Audi e-tron,95.0,CS892,Highway,64.54,21.7,3.12,7.42,Evening,Monday,30.0,93.7,206.1,4.4,1,Level 1,Long-Distance Traveler
+U1112,Nissan Leaf,40.0,CS178,Highway,16.93,2.63,6.58,3.69,Afternoon,Wednesday,44.9,83.9,5.0,39.9,5,Level 2,Casual Driver
+U1113,Tesla Model S,100.0,CS777,Public,45.23,0.98,47.91,16.89,Evening,Tuesday,50.2,92.3,84.3,2.4,2,DC Fast,Long-Distance Traveler
+U1114,BMW i3,42.2,CS431,Home,22.11,3.32,6.94,3.82,Evening,Monday,42.4,93.6,27.7,14.1,7,Level 2,Long-Distance Traveler
+U1115,Tesla Model X,100.0,CS767,Highway,50.99,8.17,6.4,12.52,Morning,Monday,41.5,91.7,9.2,23.7,3,Level 2,Casual Driver
+U1116,Audi e-tron,95.0,CS199,Public,50.4,1.02,48.23,18.51,Afternoon,Thursday,35.2,82.2,15.9,-8.5,5,DC Fast,Long-Distance Traveler
+U1117,Tesla Model Y,75.0,CS301,Workplace,38.09,0.77,47.55,10.66,Night,Monday,30.6,79.4,40.9,10.0,3,DC Fast,Commuter
+U1118,Audi e-tron,95.0,CS427,Workplace,70.79,10.8,7.02,17.11,Evening,Thursday,25.4,99.3,46.2,18.1,4,Level 2,Commuter
+U1119,Nissan Leaf,40.0,CS291,Highway,38.8,5.93,6.94,7.48,Night,Saturday,8.0,97.8,25.1,1.5,4,Level 2,Commuter
+U1120,Chevy Bolt EV,65.0,CS267,Home,27.13,4.17,6.48,5.76,Night,Thursday,41.4,79.1,5.0,-4.2,8,Level 2,Long-Distance Traveler
+U1121,Tesla Model Y,75.0,CS923,Home,34.74,5.4,6.51,7.19,Night,Friday,39.3,83.6,43.6,30.8,2,Level 2,Commuter
+U1122,Kia EV6,77.4,CS158,Home,48.89,16.06,3.17,7.07,Morning,Sunday,29.3,91.2,27.7,25.3,3,Level 1,Casual Driver
+U1123,Nissan Leaf,40.0,CS836,Home,21.42,0.45,46.11,6.18,Night,Friday,27.1,78.7,7.9,29.1,6,DC Fast,Commuter
+U1124,Tesla Model Y,75.0,CS904,Highway,38.71,5.95,6.54,5.42,Night,Friday,35.5,83.4,36.4,38.1,3,Level 2,Casual Driver
+U1125,Nissan Leaf,40.0,CS522,Home,28.2,0.66,45.74,8.21,Afternoon,Tuesday,24.1,94.1,392.2,18.2,4,DC Fast,Commuter
+U1126,Tesla Model 3,75.0,CS910,Public,28.2,4.4,6.4,6.83,Morning,Wednesday,43.2,80.1,48.9,15.0,5,Level 2,Commuter
+U1127,Tesla Model S,100.0,CS394,Highway,48.86,1.21,44.35,15.72,Night,Monday,36.7,84.2,24.6,12.8,5,DC Fast,Commuter
+U1128,Nissan Leaf,40.0,CS828,Home,24.15,7.62,3.3,3.38,Night,Wednesday,33.8,92.6,63.6,13.2,4,Level 1,Casual Driver
+U1129,Tesla Model S,100.0,CS626,Home,80.2,12.2,7.03,14.01,Night,Tuesday,26.6,99.9,43.4,-1.5,1,Level 2,Long-Distance Traveler
+U1130,Nissan Leaf,40.0,CS431,Public,22.88,3.56,6.7,3.97,Evening,Wednesday,42.5,99.3,176.5,22.0,6,Level 2,Commuter
+U1131,Tesla Model Y,75.0,CS177,Highway,44.1,0.97,46.96,15.58,Night,Monday,41.2,99.8,65.5,20.8,5,DC Fast,Commuter
+U1132,Tesla Model 3,75.0,CS484,Workplace,40.97,5.78,7.2,7.02,Afternoon,Sunday,31.6,82.3,14.7,38.1,2,Level 2,Long-Distance Traveler
+U1133,Tesla Model S,100.0,CS492,Highway,20.82,2.89,7.13,3.85,Evening,Saturday,61.0,80.3,31.6,37.4,1,Level 2,Casual Driver
+U1134,Tesla Model Y,75.0,CS870,Public,42.26,0.88,48.02,16.18,Evening,Monday,27.8,84.2,46.3,20.1,6,DC Fast,Casual Driver
+U1135,Tesla Model Y,75.0,CS746,Workplace,29.5,0.75,47.44,8.79,Evening,Tuesday,55.6,93.1,26.8,8.5,5,DC Fast,Commuter
+U1136,Tesla Model Y,75.0,CS434,Workplace,43.04,5.99,7.2,8.02,Afternoon,Monday,23.5,78.8,97.0,29.0,3,Level 2,Commuter
+U1137,Nissan Leaf,40.0,CS722,Home,29.17,4.19,7.19,6.25,Night,Sunday,31.0,95.3,83.4,-9.5,3,Level 2,Commuter
+U1138,Nissan Leaf,40.0,CS732,Workplace,29.13,4.57,6.64,6.48,Afternoon,Wednesday,26.2,91.7,73.0,-5.3,3,Level 2,Commuter
+U1139,Tesla Model Y,75.0,CS739,Highway,18.76,2.81,6.79,4.32,Afternoon,Saturday,54.5,78.2,28.6,7.1,2,Level 2,Long-Distance Traveler
+U1140,Audi e-tron,95.0,CS195,Highway,44.99,6.79,6.68,7.69,Evening,Friday,36.5,83.7,48.4,21.1,3,Level 2,Casual Driver
+U1141,Tesla Model X,100.0,CS966,Public,46.63,0.96,46.5,20.72,Afternoon,Monday,34.0,80.2,55.4,18.0,6,DC Fast,Long-Distance Traveler
+U1142,Tesla Model Y,75.0,CS915,Home,45.0,0.98,44.65,17.94,Morning,Thursday,22.7,81.7,176.7,15.8,7,DC Fast,Long-Distance Traveler
+U1143,Audi e-tron,95.0,CS600,Highway,44.9,6.75,6.94,9.38,Night,Monday,47.7,90.4,27.7,-4.2,4,Level 2,Commuter
+U1144,BMW i3,42.2,CS202,Highway,24.32,0.51,45.22,9.22,Evening,Wednesday,46.4,99.6,173.6,0.9,1,DC Fast,Commuter
+U1145,Chevy Bolt EV,65.0,CS303,Public,47.37,0.97,48.19,16.75,Night,Saturday,11.1,83.9,13.5,19.8,1,DC Fast,Commuter
+U1146,Tesla Model 3,75.0,CS143,Home,32.72,0.66,46.35,10.7,Evening,Sunday,40.2,83.4,57.0,22.2,2,DC Fast,Commuter
+U1147,Hyundai Ioniq 5,72.6,CS852,Home,14.22,2.03,6.81,2.08,Morning,Sunday,61.7,80.0,44.3,4.4,3,Level 2,Casual Driver
+U1148,Chevy Bolt EV,65.0,CS592,Workplace,37.61,5.61,7.0,7.71,Night,Friday,33.0,90.8,5.8,20.6,2,Level 2,Casual Driver
+U1149,Kia EV6,77.4,CS815,Public,12.95,0.28,48.29,3.83,Night,Saturday,64.6,81.3,75.1,20.7,7,DC Fast,Long-Distance Traveler
+U1150,Tesla Model 3,75.0,CS318,Workplace,47.66,7.08,7.04,9.73,Night,Tuesday,34.7,95.0,14.0,32.8,5,Level 2,Commuter
+U1151,Audi e-tron,95.0,CS858,Public,67.31,1.48,48.48,23.45,Morning,Tuesday,31.0,93.8,8.5,-8.4,7,DC Fast,Commuter
+U1152,Tesla Model 3,75.0,CS631,Workplace,56.84,8.1,7.16,10.21,Evening,Friday,13.0,82.8,49.3,0.3,3,Level 2,Commuter
+U1153,Nissan Leaf,40.0,CS348,Public,14.38,2.17,6.5,2.31,Evening,Wednesday,44.9,79.6,59.4,10.9,4,Level 2,Commuter
+U1154,Tesla Model 3,75.0,CS632,Workplace,58.26,1.33,45.58,23.5,Night,Thursday,8.0,84.5,59.8,16.2,3,DC Fast,Commuter
+U1155,Audi e-tron,95.0,CS191,Highway,72.47,1.68,45.55,29.08,Night,Sunday,25.6,97.7,32.1,6.2,8,DC Fast,Commuter
+U1156,BMW i3,42.2,CS874,Home,21.12,6.72,3.3,2.27,Evening,Friday,42.0,90.0,10.3,29.9,8,Level 1,Long-Distance Traveler
+U1157,Tesla Model Y,75.0,CS658,Highway,15.08,0.36,47.17,6.03,Afternoon,Sunday,65.7,84.6,11.5,5.2,4,DC Fast,Commuter
+U1158,Tesla Model X,100.0,CS586,Public,19.29,2.78,7.06,3.37,Evening,Friday,60.5,78.8,75.9,8.2,1,Level 2,Commuter
+U1159,Tesla Model 3,75.0,CS800,Highway,26.02,4.04,6.53,4.69,Afternoon,Monday,48.7,81.0,54.3,2.2,2,Level 2,Commuter
+U1160,Nissan Leaf,40.0,CS562,Home,26.85,4.07,6.61,4.39,Evening,Wednesday,20.9,82.9,13.3,0.8,5,Level 2,Commuter
+U1161,Tesla Model Y,75.0,CS207,Highway,33.25,4.75,7.05,7.47,Morning,Saturday,40.7,82.9,47.0,32.0,7,Level 2,Casual Driver
+U1162,Chevy Bolt EV,65.0,CS109,Workplace,19.9,3.05,6.46,4.2,Morning,Friday,48.8,78.3,18.2,11.4,5,Level 2,Long-Distance Traveler
+U1163,Audi e-tron,95.0,CS253,Home,56.57,17.9,3.15,7.49,Evening,Friday,23.8,78.8,24.6,0.8,7,Level 1,Commuter
+U1164,Kia EV6,77.4,CS803,Workplace,61.36,8.99,7.05,9.22,Night,Tuesday,12.5,91.0,12.5,22.6,1,Level 2,Long-Distance Traveler
+U1165,Audi e-tron,95.0,CS467,Highway,78.66,1.89,45.02,28.85,Night,Friday,19.1,99.6,56.9,26.7,4,DC Fast,Commuter
+U1166,Tesla Model 3,75.0,CS583,Public,54.17,8.12,7.06,8.21,Evening,Friday,28.2,95.5,57.8,3.1,1,Level 2,Long-Distance Traveler
+U1167,Tesla Model X,100.0,CS713,Public,79.82,12.21,6.97,17.04,Night,Saturday,23.0,97.8,86.7,4.2,3,Level 2,Casual Driver
+U1168,Chevy Bolt EV,65.0,CS232,Home,28.62,0.68,46.73,7.79,Morning,Wednesday,41.8,82.5,21.6,1.0,3,DC Fast,Commuter
+U1169,Tesla Model 3,75.0,CS257,Home,54.06,1.15,48.94,21.85,Evening,Sunday,30.0,99.9,5.7,12.6,1,DC Fast,Long-Distance Traveler
+U1170,Tesla Model Y,75.0,CS759,Workplace,46.59,0.91,48.59,14.48,Evening,Saturday,33.6,94.8,91.2,16.2,1,DC Fast,Long-Distance Traveler
+U1171,Tesla Model 3,75.0,CS381,Highway,50.2,7.45,6.7,9.95,Afternoon,Tuesday,15.2,78.5,46.1,33.4,1,Level 2,Commuter
+U1172,Tesla Model 3,75.0,CS860,Highway,28.96,4.35,6.82,6.73,Afternoon,Monday,48.5,84.6,45.0,3.5,2,Level 2,Commuter
+U1173,Tesla Model 3,75.0,CS925,Workplace,52.64,1.22,47.57,18.03,Night,Thursday,30.1,99.4,27.9,23.0,2,DC Fast,Commuter
+U1174,BMW i3,42.2,CS168,Workplace,30.84,4.38,7.18,5.91,Afternoon,Saturday,9.3,81.7,64.7,22.4,1,Level 2,Casual Driver
+U1175,Tesla Model S,100.0,CS438,Public,41.8,13.27,3.15,6.0,Morning,Friday,41.0,79.8,30.3,37.9,4,Level 1,Commuter
+U1176,Tesla Model X,100.0,CS644,Highway,43.44,0.88,49.79,12.23,Night,Sunday,39.7,82.1,27.5,25.6,6,DC Fast,Casual Driver
+U1177,Hyundai Ioniq 5,72.6,CS765,Workplace,16.96,2.66,6.52,3.11,Night,Thursday,61.9,82.9,100.3,-5.1,1,Level 2,Casual Driver
+U1178,Chevy Bolt EV,65.0,CS592,Home,47.29,7.71,6.57,11.55,Night,Tuesday,26.4,98.0,47.3,15.9,2,Level 2,Commuter
+U1179,Tesla Model 3,75.0,CS981,Workplace,29.59,4.18,7.09,5.73,Afternoon,Saturday,42.8,81.9,25.7,22.4,5,Level 2,Commuter
+U1180,Tesla Model 3,75.0,CS232,Home,65.46,10.71,6.36,12.92,Evening,Tuesday,8.0,92.1,51.5,29.1,4,Level 2,Casual Driver
+U1181,Nissan Leaf,40.0,CS537,Highway,31.04,4.61,7.1,6.68,Night,Saturday,24.7,98.1,12.9,6.5,4,Level 2,Commuter
+U1182,Tesla Model Y,75.0,CS339,Workplace,55.3,1.3,44.97,21.78,Afternoon,Monday,12.6,81.2,36.6,2.7,4,DC Fast,Long-Distance Traveler
+U1183,Tesla Model S,100.0,CS539,Public,39.7,6.1,6.6,8.05,Morning,Saturday,45.4,83.7,117.9,11.0,7,Level 2,Casual Driver
+U1184,Hyundai Ioniq 5,72.6,CS954,Home,34.4,0.68,49.15,11.48,Evening,Wednesday,39.0,82.5,51.7,40.5,7,DC Fast,Long-Distance Traveler
+U1185,Nissan Leaf,40.0,CS110,Workplace,26.33,4.07,6.48,4.55,Evening,Monday,18.3,79.0,109.8,0.2,2,Level 2,Commuter
+U1186,Tesla Model Y,75.0,CS809,Highway,46.32,7.31,6.41,9.38,Afternoon,Tuesday,21.2,82.5,57.0,18.1,8,Level 2,Commuter
+U1187,Tesla Model Y,75.0,CS147,Public,35.03,0.72,46.08,11.78,Evening,Tuesday,36.8,79.8,93.3,0.1,3,DC Fast,Casual Driver
+U1188,Chevy Bolt EV,65.0,CS171,Home,35.93,5.59,6.44,6.23,Afternoon,Tuesday,31.1,81.9,33.4,-0.1,1,Level 2,Long-Distance Traveler
+U1189,Tesla Model S,100.0,CS348,Public,21.08,0.45,46.84,5.84,Afternoon,Thursday,58.2,78.9,26.1,15.0,1,DC Fast,Long-Distance Traveler
+U1190,Tesla Model X,100.0,CS685,Public,55.45,1.26,47.89,19.56,Night,Sunday,43.0,96.4,20.7,10.7,3,DC Fast,Commuter
+U1191,Tesla Model 3,75.0,CS960,Workplace,33.61,0.74,48.97,12.63,Evening,Tuesday,38.0,81.6,21.4,13.2,1,DC Fast,Commuter
+U1192,Tesla Model 3,75.0,CS106,Workplace,52.95,1.28,45.13,16.98,Evening,Sunday,27.4,94.3,13.8,6.7,1,DC Fast,Casual Driver
+U1193,Hyundai Ioniq 5,72.6,CS864,Workplace,47.25,7.0,6.83,8.91,Morning,Saturday,17.7,81.3,28.2,25.7,5,Level 2,Casual Driver
+U1194,Chevy Bolt EV,65.0,CS499,Public,40.77,0.82,48.73,12.18,Night,Tuesday,22.1,83.7,52.5,24.5,2,DC Fast,Commuter
+U1195,Tesla Model Y,75.0,CS496,Home,33.54,0.75,46.19,11.98,Night,Saturday,48.0,91.7,8.2,14.6,2,DC Fast,Casual Driver
+U1196,Tesla Model S,100.0,CS531,Home,19.73,3.03,6.56,3.41,Night,Tuesday,59.4,78.4,29.8,29.2,2,Level 2,Commuter
+U1197,Tesla Model S,100.0,CS287,Home,45.18,0.93,46.35,15.74,Night,Tuesday,38.5,83.1,17.8,16.3,6,DC Fast,Commuter
+U1198,Tesla Model 3,75.0,CS331,Public,27.34,0.51,45.91,9.73,Evening,Tuesday,47.7,84.0,116.4,19.1,3,DC Fast,Commuter
+U1199,Tesla Model Y,75.0,CS568,Workplace,21.01,3.32,6.42,3.73,Evening,Wednesday,52.7,79.8,9.9,27.5,2,Level 2,Commuter
+U1200,Tesla Model S,100.0,CS653,Highway,65.48,9.45,6.93,12.47,Night,Thursday,19.7,80.1,62.9,0.7,8,Level 2,Commuter
+U1201,Nissan Leaf,40.0,CS872,Highway,7.96,0.1,44.89,3.39,Evening,Sunday,59.2,78.8,37.0,23.2,2,DC Fast,Long-Distance Traveler
+U1202,Tesla Model X,100.0,CS321,Workplace,71.29,1.55,46.65,25.42,Night,Friday,28.3,99.6,36.4,20.0,1,DC Fast,Commuter
+U1203,Tesla Model 3,75.0,CS129,Home,30.99,0.69,49.61,12.32,Morning,Friday,41.2,81.9,72.7,16.5,5,DC Fast,Commuter
+U1204,Tesla Model 3,75.0,CS710,Highway,38.58,5.93,6.59,7.81,Evening,Tuesday,33.4,83.7,41.0,25.6,4,Level 2,Casual Driver
+U1205,Tesla Model 3,75.0,CS287,Home,37.23,11.99,3.13,4.99,Evening,Friday,34.9,82.4,46.6,9.2,6,Level 1,Casual Driver
+U1206,Nissan Leaf,40.0,CS920,Highway,28.88,0.54,47.44,9.35,Night,Wednesday,12.9,84.9,32.4,19.2,4,DC Fast,Long-Distance Traveler
+U1207,Tesla Model Y,75.0,CS559,Home,55.5,8.37,6.63,11.67,Night,Saturday,8.0,79.4,17.2,11.2,6,Level 2,Casual Driver
+U1208,Tesla Model Y,75.0,CS204,Home,25.45,3.91,6.68,6.07,Evening,Tuesday,57.7,91.3,35.5,17.8,1,Level 2,Commuter
+U1209,Audi e-tron,95.0,CS249,Workplace,34.73,5.37,6.53,8.01,Night,Thursday,48.6,83.9,58.8,28.7,2,Level 2,Commuter
+U1210,Kia EV6,77.4,CS132,Workplace,46.31,6.55,7.11,11.32,Night,Wednesday,20.6,79.9,90.4,17.8,1,Level 2,Long-Distance Traveler
+U1211,Tesla Model 3,75.0,CS286,Workplace,24.56,7.79,3.2,3.04,Evening,Tuesday,49.1,81.3,84.2,16.0,2,Level 1,Commuter
+U1212,Nissan Leaf,40.0,CS556,Highway,6.0,0.14,48.66,2.57,Afternoon,Tuesday,64.8,79.6,191.5,16.9,6,DC Fast,Commuter
+U1213,Tesla Model S,100.0,CS468,Public,47.25,7.49,6.43,6.85,Night,Monday,37.1,82.2,35.4,8.5,3,Level 2,Commuter
+U1214,Tesla Model 3,75.0,CS776,Home,68.01,10.56,6.83,13.39,Evening,Tuesday,8.0,97.3,161.2,23.8,1,Level 2,Commuter
+U1215,Chevy Bolt EV,65.0,CS110,Workplace,20.14,0.52,49.22,5.96,Night,Monday,51.0,80.9,72.5,11.4,6,DC Fast,Commuter
+U1216,Tesla Model S,100.0,CS447,Home,39.7,13.33,2.97,5.87,Morning,Sunday,41.2,79.0,29.0,8.2,5,Level 1,Casual Driver
+U1217,Tesla Model X,100.0,CS517,Home,21.97,3.03,7.16,5.25,Night,Sunday,57.0,78.4,44.2,26.4,1,Level 2,Casual Driver
+U1218,Tesla Model Y,75.0,CS943,Highway,36.76,5.12,7.14,7.39,Afternoon,Tuesday,31.3,80.0,13.7,21.6,2,Level 2,Long-Distance Traveler
+U1219,Audi e-tron,95.0,CS178,Workplace,38.68,5.53,7.13,8.91,Afternoon,Tuesday,38.5,79.2,21.1,20.4,2,Level 2,Commuter
+U1220,Nissan Leaf,40.0,CS605,Highway,32.85,5.11,6.71,7.35,Night,Friday,18.9,94.7,33.0,0.9,5,Level 2,Commuter
+U1221,Audi e-tron,95.0,CS576,Public,40.48,5.69,7.16,5.61,Afternoon,Saturday,40.7,79.9,71.8,0.4,3,Level 2,Commuter
+U1222,Tesla Model S,100.0,CS823,Highway,42.83,0.94,44.72,14.03,Afternoon,Friday,42.5,83.7,60.3,10.5,5,DC Fast,Commuter
+U1223,BMW i3,42.2,CS217,Workplace,29.23,4.63,6.44,6.9,Evening,Friday,15.1,83.7,278.7,17.8,7,Level 2,Commuter
+U1224,Tesla Model 3,75.0,CS485,Highway,57.61,8.84,6.93,8.5,Evening,Thursday,20.5,95.2,32.7,26.8,4,Level 2,Commuter
+U1225,Kia EV6,77.4,CS853,Highway,67.8,10.88,6.57,14.06,Night,Thursday,8.0,95.3,26.5,19.3,2,Level 2,Casual Driver
+U1226,Nissan Leaf,40.0,CS810,Home,25.01,3.91,6.46,5.88,Evening,Friday,21.2,82.5,43.2,25.0,2,Level 2,Commuter
+U1227,Tesla Model 3,75.0,CS384,Highway,24.23,8.21,2.94,2.87,Afternoon,Tuesday,47.0,79.0,41.7,22.6,4,Level 1,Commuter
+U1228,Hyundai Ioniq 5,72.6,CS424,Highway,69.41,11.2,6.46,12.49,Night,Thursday,8.0,92.4,28.6,-9.3,1,Level 2,Casual Driver
+U1229,Chevy Bolt EV,65.0,CS790,Highway,34.41,5.5,6.55,5.16,Morning,Saturday,39.5,92.3,20.6,19.4,7,Level 2,Commuter
+U1230,Tesla Model S,100.0,CS285,Highway,12.02,1.66,7.1,2.8,Night,Tuesday,73.2,84.8,32.4,9.8,2,Level 2,Long-Distance Traveler
+U1231,Tesla Model 3,75.0,CS874,Workplace,48.44,15.05,3.29,5.67,Morning,Monday,27.0,84.8,32.3,-6.2,2,Level 1,Long-Distance Traveler
+U1232,Tesla Model Y,75.0,CS126,Workplace,22.92,0.5,47.62,8.1,Morning,Monday,54.1,83.3,48.2,9.0,2,DC Fast,Commuter
+U1233,Tesla Model 3,75.0,CS443,Workplace,20.99,0.47,44.1,7.31,Night,Friday,55.6,81.5,50.1,1.1,7,DC Fast,Commuter
+U1234,Tesla Model 3,75.0,CS586,Highway,54.75,8.84,6.39,12.45,Night,Thursday,19.2,91.5,54.5,22.1,7,Level 2,Commuter
+U1235,Tesla Model Y,75.0,CS147,Highway,25.49,0.54,47.34,7.83,Evening,Sunday,46.4,80.4,22.9,20.2,8,DC Fast,Long-Distance Traveler
+U1236,Tesla Model X,100.0,CS916,Highway,86.73,30.0,2.98,9.41,Afternoon,Wednesday,17.2,98.0,47.5,2.7,1,Level 1,Casual Driver
+U1237,Tesla Model Y,75.0,CS420,Home,15.35,2.13,7.01,3.01,Evening,Wednesday,59.2,79.4,44.1,23.3,3,Level 2,Commuter
+U1238,Tesla Model S,100.0,CS126,Workplace,36.46,5.44,6.64,5.37,Morning,Friday,42.9,78.4,25.0,13.4,1,Level 2,Casual Driver
+U1239,Tesla Model Y,75.0,CS363,Public,40.11,6.59,6.4,6.79,Evening,Monday,40.7,93.0,12.6,25.4,4,Level 2,Commuter
+U1240,Audi e-tron,95.0,CS612,Home,34.29,4.91,6.94,6.77,Night,Sunday,44.1,79.0,20.6,11.8,2,Level 2,Commuter
+U1241,Tesla Model 3,75.0,CS263,Home,47.69,7.31,6.61,11.23,Night,Sunday,22.4,84.1,23.2,12.9,4,Level 2,Commuter
+U1242,Tesla Model Y,75.0,CS675,Workplace,49.92,7.89,6.36,8.26,Evening,Saturday,17.3,80.2,27.9,6.4,3,Level 2,Casual Driver
+U1243,Tesla Model 3,75.0,CS418,Public,52.43,8.43,6.55,10.91,Afternoon,Wednesday,31.5,92.5,14.1,-12.0,7,Level 2,Commuter
+U1244,Chevy Bolt EV,65.0,CS893,Highway,28.21,4.03,6.92,5.68,Afternoon,Tuesday,39.4,80.8,36.5,31.4,5,Level 2,Casual Driver
+U1245,Tesla Model X,100.0,CS980,Home,51.23,7.29,7.08,8.91,Afternoon,Monday,30.2,80.9,82.7,17.4,1,Level 2,Commuter
+U1246,Tesla Model Y,75.0,CS913,Home,41.11,13.45,3.07,5.2,Night,Friday,29.0,82.5,23.8,26.2,3,Level 1,Casual Driver
+U1247,Tesla Model 3,75.0,CS731,Public,40.48,5.8,7.0,9.17,Evening,Sunday,29.7,79.4,15.4,0.0,2,Level 2,Commuter
+U1248,Tesla Model 3,75.0,CS165,Public,6.12,0.11,49.08,2.36,Afternoon,Friday,75.0,83.0,23.3,25.1,1,DC Fast,Commuter
+U1249,Tesla Model Y,75.0,CS224,Home,25.91,8.14,3.24,3.6,Evening,Sunday,49.0,82.4,54.4,28.1,5,Level 1,Commuter
+U1250,Tesla Model X,100.0,CS563,Highway,68.68,1.47,49.01,26.9,Afternoon,Thursday,36.4,98.2,41.5,-4.8,5,DC Fast,Casual Driver
+U1251,Hyundai Ioniq 5,72.6,CS123,Home,33.16,4.87,7.03,6.37,Night,Thursday,38.3,83.7,19.1,21.5,3,Level 2,Commuter
+U1252,Chevy Bolt EV,65.0,CS119,Workplace,38.68,5.59,6.93,6.33,Evening,Tuesday,24.6,80.8,46.0,6.1,2,Level 2,Casual Driver
+U1253,Chevy Bolt EV,65.0,CS489,Highway,33.35,11.63,3.01,4.23,Afternoon,Friday,46.7,95.8,13.1,9.3,4,Level 1,Casual Driver
+U1254,Hyundai Ioniq 5,72.6,CS898,Home,38.75,6.05,6.4,6.56,Night,Wednesday,27.8,78.8,27.0,8.7,5,Level 2,Casual Driver
+U1255,Tesla Model 3,75.0,CS990,Workplace,57.1,1.27,45.9,20.08,Night,Tuesday,23.1,92.0,5.0,-3.8,7,DC Fast,Commuter
+U1256,Tesla Model Y,75.0,CS453,Home,16.27,5.15,3.21,2.42,Night,Saturday,61.7,82.9,144.7,14.6,6,Level 1,Commuter
+U1257,Tesla Model Y,75.0,CS264,Home,49.56,7.71,6.46,8.82,Evening,Thursday,21.6,82.9,23.7,1.9,4,Level 2,Commuter
+U1258,Kia EV6,77.4,CS193,Home,66.64,1.4,49.85,25.98,Night,Sunday,16.1,99.1,17.0,29.0,4,DC Fast,Commuter
+U1259,Tesla Model S,100.0,CS873,Public,30.41,4.35,7.09,5.27,Night,Friday,48.9,78.9,21.3,23.2,1,Level 2,Casual Driver
+U1260,Tesla Model S,100.0,CS793,Workplace,45.04,0.98,45.89,18.08,Evening,Thursday,53.4,97.6,13.8,15.2,1,DC Fast,Long-Distance Traveler
+U1261,Tesla Model 3,75.0,CS813,Public,71.15,23.28,3.24,9.9,Morning,Wednesday,9.2,96.2,32.0,40.5,7,Level 1,Casual Driver
+U1262,Tesla Model 3,75.0,CS964,Home,48.02,7.24,7.02,7.4,Afternoon,Tuesday,35.0,98.2,94.5,16.7,6,Level 2,Long-Distance Traveler
+U1263,Hyundai Ioniq 5,72.6,CS177,Public,51.11,1.08,44.36,18.27,Night,Wednesday,23.4,91.4,5.0,11.6,5,DC Fast,Casual Driver
+U1264,Nissan Leaf,40.0,CS852,Workplace,10.29,1.63,6.49,1.52,Afternoon,Sunday,56.5,80.0,48.0,-0.9,4,Level 2,Casual Driver
+U1265,BMW i3,42.2,CS670,Home,19.13,2.98,6.64,3.33,Afternoon,Wednesday,37.1,81.7,51.0,16.3,5,Level 2,Commuter
+U1266,Tesla Model S,100.0,CS197,Highway,53.57,1.11,48.81,17.85,Afternoon,Wednesday,29.7,80.1,15.6,5.3,2,DC Fast,Commuter
+U1267,Tesla Model Y,75.0,CS759,Public,29.52,9.88,3.15,3.7,Night,Sunday,54.9,92.9,23.1,11.6,6,Level 1,Long-Distance Traveler
+U1268,Tesla Model 3,75.0,CS360,Workplace,26.03,8.02,3.27,3.13,Night,Friday,48.1,82.0,71.5,14.2,1,Level 1,Commuter
+U1269,Tesla Model Y,75.0,CS694,Workplace,56.68,17.74,3.21,6.34,Afternoon,Wednesday,11.8,82.7,19.0,35.4,7,Level 1,Long-Distance Traveler
+U1270,Kia EV6,77.4,CS575,Public,48.61,7.53,6.83,7.84,Night,Wednesday,35.4,97.8,68.8,21.7,6,Level 2,Casual Driver
+U1271,Audi e-tron,95.0,CS229,Public,30.38,10.04,3.06,3.21,Evening,Saturday,53.1,82.5,69.5,-0.2,4,Level 1,Commuter
+U1272,Tesla Model S,100.0,CS889,Highway,67.47,10.52,6.73,15.72,Night,Saturday,30.5,97.2,39.4,17.3,7,Level 2,Casual Driver
+U1273,Kia EV6,77.4,CS206,Public,51.14,1.15,45.37,20.61,Evening,Tuesday,21.8,83.9,31.1,34.7,6,DC Fast,Casual Driver
+U1274,Tesla Model S,100.0,CS451,Highway,49.37,1.01,47.95,19.72,Evening,Thursday,33.9,81.5,9.6,11.3,5,DC Fast,Commuter
+U1275,Hyundai Ioniq 5,72.6,CS312,Public,46.7,7.41,6.38,7.86,Night,Saturday,21.7,80.4,99.9,41.7,6,Level 2,Commuter
+U1276,Hyundai Ioniq 5,72.6,CS462,Public,36.74,0.85,45.27,13.96,Afternoon,Monday,38.5,82.7,37.3,-12.0,6,DC Fast,Casual Driver
+U1277,BMW i3,42.2,CS181,Workplace,33.34,0.72,48.1,11.8,Night,Saturday,21.0,94.1,85.5,1.6,4,DC Fast,Commuter
+U1278,Nissan Leaf,40.0,CS192,Highway,22.1,0.48,48.91,7.83,Night,Sunday,25.6,79.1,152.6,11.9,2,DC Fast,Commuter
+U1279,Audi e-tron,95.0,CS250,Public,27.63,4.46,6.35,4.54,Night,Thursday,56.6,84.6,23.1,28.9,1,Level 2,Casual Driver
+U1280,Tesla Model S,100.0,CS702,Public,48.09,1.05,48.79,19.17,Morning,Monday,44.3,92.2,19.4,20.9,7,DC Fast,Casual Driver
+U1281,Audi e-tron,95.0,CS506,Workplace,45.59,0.96,47.34,13.85,Morning,Wednesday,43.0,90.2,10.0,16.0,3,DC Fast,Casual Driver
+U1282,Nissan Leaf,40.0,CS209,Public,25.54,3.78,7.08,5.94,Afternoon,Sunday,33.4,94.5,16.8,9.2,5,Level 2,Commuter
+U1283,Tesla Model 3,75.0,CS788,Public,54.62,8.67,6.74,9.07,Evening,Tuesday,28.0,97.1,60.4,7.5,1,Level 2,Casual Driver
+U1284,Tesla Model X,100.0,CS538,Highway,40.62,6.06,6.68,7.54,Evening,Saturday,40.2,80.6,150.2,18.8,3,Level 2,Commuter
+U1285,Tesla Model 3,75.0,CS724,Workplace,50.98,16.71,3.09,5.21,Night,Wednesday,15.4,83.0,14.7,18.6,3,Level 1,Commuter
+U1286,Kia EV6,77.4,CS376,Highway,44.77,6.95,6.83,9.48,Afternoon,Thursday,44.8,97.3,31.4,-3.5,6,Level 2,Casual Driver
+U1287,Tesla Model Y,75.0,CS609,Workplace,12.9,1.91,6.86,2.16,Night,Sunday,64.9,82.0,98.4,19.8,7,Level 2,Casual Driver
+U1288,Tesla Model Y,75.0,CS124,Highway,33.51,11.02,3.17,4.09,Evening,Sunday,46.4,90.4,35.6,16.0,1,Level 1,Commuter
+U1289,Nissan Leaf,40.0,CS770,Public,22.16,6.76,3.27,3.03,Morning,Thursday,31.3,84.9,22.6,28.4,3,Level 1,Casual Driver
+U1290,Tesla Model X,100.0,CS561,Workplace,32.7,0.7,46.54,13.42,Afternoon,Thursday,48.4,80.8,46.4,17.2,6,DC Fast,Long-Distance Traveler
+U1291,Tesla Model 3,75.0,CS958,Highway,50.9,1.13,45.56,18.03,Night,Friday,18.9,82.0,36.6,2.6,1,DC Fast,Long-Distance Traveler
+U1292,BMW i3,42.2,CS735,Home,23.5,3.3,7.16,5.48,Afternoon,Thursday,28.8,83.6,78.5,24.0,3,Level 2,Casual Driver
+U1293,Tesla Model 3,75.0,CS575,Home,44.73,6.62,6.96,9.81,Morning,Friday,35.4,90.5,18.9,38.9,1,Level 2,Commuter
+U1294,Tesla Model Y,75.0,CS263,Workplace,54.88,7.8,7.16,8.98,Morning,Wednesday,19.1,84.4,57.6,-6.9,3,Level 2,Casual Driver
+U1295,Tesla Model S,100.0,CS361,Home,72.72,22.8,3.2,10.98,Evening,Sunday,10.1,80.9,293.6,13.5,1,Level 1,Commuter
+U1296,Tesla Model 3,75.0,CS564,Workplace,44.66,7.03,6.68,9.73,Afternoon,Sunday,36.8,96.0,29.6,21.8,1,Level 2,Commuter
+U1297,Audi e-tron,95.0,CS775,Home,53.34,1.05,47.97,15.07,Night,Wednesday,26.7,81.4,5.2,13.5,1,DC Fast,Casual Driver
+U1298,Kia EV6,77.4,CS262,Workplace,24.34,3.54,6.99,3.31,Morning,Friday,52.6,81.0,22.3,-4.1,3,Level 2,Long-Distance Traveler
+U1299,Kia EV6,77.4,CS230,Public,39.66,0.89,47.09,15.13,Afternoon,Sunday,39.4,84.3,45.1,-11.0,2,DC Fast,Commuter
+U1300,Hyundai Ioniq 5,72.6,CS252,Highway,47.8,1.05,48.66,17.01,Night,Friday,22.7,84.6,46.1,5.2,6,DC Fast,Commuter
+U1301,Chevy Bolt EV,65.0,CS867,Workplace,50.21,7.56,7.1,11.49,Night,Sunday,20.9,97.2,17.4,17.2,3,Level 2,Long-Distance Traveler
+U1302,Tesla Model S,100.0,CS339,Public,60.51,9.97,6.35,11.13,Afternoon,Friday,36.3,91.6,25.4,41.5,3,Level 2,Casual Driver
+U1303,Tesla Model 3,75.0,CS115,Public,34.67,0.76,45.07,11.03,Afternoon,Wednesday,41.0,84.7,62.1,33.6,2,DC Fast,Long-Distance Traveler
+U1304,Tesla Model X,100.0,CS203,Public,54.97,8.11,7.14,12.61,Evening,Thursday,43.6,96.7,33.1,28.3,3,Level 2,Casual Driver
+U1305,Tesla Model S,100.0,CS581,Highway,41.03,13.46,3.07,6.05,Evening,Saturday,41.9,81.3,24.9,10.2,4,Level 1,Commuter
+U1306,Tesla Model 3,75.0,CS259,Public,41.0,5.77,7.14,7.32,Evening,Friday,32.1,83.3,10.6,35.8,8,Level 2,Casual Driver
+U1307,Tesla Model 3,75.0,CS878,Home,29.5,4.18,7.07,5.5,Evening,Wednesday,47.7,84.6,48.8,4.5,4,Level 2,Commuter
+U1308,Chevy Bolt EV,65.0,CS623,Home,12.89,0.19,48.0,4.28,Evening,Sunday,59.3,78.7,94.4,26.1,8,DC Fast,Commuter
+U1309,Tesla Model 3,75.0,CS174,Workplace,51.13,7.71,6.85,8.22,Morning,Monday,27.2,90.6,34.3,37.6,1,Level 2,Casual Driver
+U1310,Chevy Bolt EV,65.0,CS809,Workplace,13.88,1.99,7.14,3.0,Night,Saturday,61.3,81.8,65.9,9.8,3,Level 2,Commuter
+U1311,Tesla Model 3,75.0,CS522,Home,31.59,4.79,6.53,6.41,Evening,Monday,38.7,80.0,68.0,14.6,5,Level 2,Long-Distance Traveler
+U1312,Tesla Model 3,75.0,CS114,Home,31.68,9.9,3.19,4.52,Afternoon,Tuesday,39.2,80.5,96.2,26.0,1,Level 1,Commuter
+U1313,Tesla Model 3,75.0,CS849,Workplace,28.4,4.16,6.69,6.64,Night,Sunday,43.0,80.5,52.2,21.8,3,Level 2,Commuter
+U1314,Nissan Leaf,40.0,CS967,Home,16.88,5.79,2.92,1.84,Afternoon,Sunday,39.4,79.1,12.9,5.4,7,Level 1,Commuter
+U1315,Tesla Model S,100.0,CS622,Highway,39.73,5.78,6.86,6.89,Morning,Tuesday,43.7,83.2,101.7,18.5,3,Level 2,Long-Distance Traveler
+U1316,Tesla Model Y,75.0,CS705,Home,38.82,13.24,2.96,4.4,Evening,Friday,32.6,80.6,18.9,38.1,4,Level 1,Commuter
+U1317,Tesla Model Y,75.0,CS957,Workplace,49.46,8.23,6.41,7.24,Evening,Tuesday,35.0,99.2,39.8,26.8,2,Level 2,Commuter
+U1318,Audi e-tron,95.0,CS457,Workplace,38.52,0.87,49.22,12.88,Evening,Wednesday,57.8,97.9,35.6,22.5,2,DC Fast,Long-Distance Traveler
+U1319,Chevy Bolt EV,65.0,CS290,Highway,22.63,3.4,6.63,4.06,Night,Thursday,47.4,82.0,105.6,18.9,3,Level 2,Commuter
+U1320,Tesla Model S,100.0,CS660,Home,54.75,8.51,6.71,12.46,Night,Wednesday,38.4,90.0,25.2,34.2,4,Level 2,Commuter
+U1321,Tesla Model 3,75.0,CS546,Highway,36.26,5.13,7.11,5.58,Evening,Tuesday,35.4,82.3,87.2,12.7,2,Level 2,Long-Distance Traveler
+U1322,Tesla Model 3,75.0,CS159,Highway,20.66,3.17,6.44,3.46,Evening,Tuesday,55.2,80.0,14.4,-4.2,1,Level 2,Long-Distance Traveler
+U1323,Tesla Model S,100.0,CS749,Public,65.04,10.06,6.75,15.44,Night,Saturday,27.4,92.0,10.2,18.4,2,Level 2,Casual Driver
+U1324,Tesla Model S,100.0,CS276,Highway,65.61,9.46,7.0,13.31,Night,Friday,19.1,82.4,49.0,11.1,2,Level 2,Commuter
+U1325,Tesla Model Y,75.0,CS318,Workplace,14.34,2.32,6.41,3.45,Evening,Friday,65.1,84.1,48.8,18.6,1,Level 2,Commuter
+U1326,Nissan Leaf,40.0,CS389,Home,25.56,3.85,7.08,5.03,Night,Friday,30.3,93.5,38.4,17.1,7,Level 2,Commuter
+U1327,Nissan Leaf,40.0,CS638,Highway,16.13,2.28,7.1,2.99,Night,Thursday,39.3,78.2,115.0,11.1,5,Level 2,Commuter
+U1328,Tesla Model S,100.0,CS900,Home,62.46,8.81,7.1,9.92,Evening,Wednesday,20.2,79.9,40.2,8.9,4,Level 2,Casual Driver
+U1329,Tesla Model X,100.0,CS484,Home,38.93,0.9,47.77,13.36,Afternoon,Thursday,45.1,82.1,24.3,7.6,1,DC Fast,Commuter
+U1330,Tesla Model 3,75.0,CS686,Home,49.47,7.7,6.8,8.96,Morning,Saturday,32.8,96.4,24.3,11.2,2,Level 2,Commuter
+U1331,BMW i3,42.2,CS217,Public,29.04,4.42,6.94,5.26,Evening,Sunday,28.9,94.0,197.1,6.7,5,Level 2,Long-Distance Traveler
+U1332,Tesla Model 3,75.0,CS945,Public,18.45,0.44,48.87,6.56,Afternoon,Sunday,70.7,94.6,60.2,12.8,3,DC Fast,Commuter
+U1333,Nissan Leaf,40.0,CS523,Public,10.55,0.16,47.23,3.91,Night,Saturday,54.4,79.9,118.9,11.6,2,DC Fast,Casual Driver
+U1334,Chevy Bolt EV,65.0,CS536,Public,55.94,18.07,3.29,8.4,Night,Thursday,15.2,98.3,61.5,11.2,5,Level 1,Long-Distance Traveler
+U1335,Chevy Bolt EV,65.0,CS418,Workplace,42.63,6.83,6.48,8.71,Afternoon,Monday,29.8,91.9,54.0,7.0,2,Level 2,Casual Driver
+U1336,Tesla Model S,100.0,CS470,Highway,42.74,6.6,6.8,9.64,Evening,Thursday,50.3,93.0,7.0,20.5,6,Level 2,Commuter
+U1337,Tesla Model X,100.0,CS989,Highway,80.75,26.49,3.23,10.9,Morning,Saturday,17.4,97.4,21.9,22.4,4,Level 1,Casual Driver
+U1338,Tesla Model Y,75.0,CS914,Highway,54.15,1.09,46.79,19.05,Night,Tuesday,8.0,79.3,19.8,17.0,2,DC Fast,Casual Driver
+U1339,Tesla Model S,100.0,CS153,Home,65.57,1.41,45.47,27.33,Night,Saturday,16.8,79.6,76.0,9.4,4,DC Fast,Commuter
+U1340,Tesla Model X,100.0,CS875,Home,44.3,14.7,3.12,4.62,Afternoon,Friday,49.4,90.4,6.4,1.3,5,Level 1,Commuter
+U1341,Tesla Model 3,75.0,CS786,Public,36.68,0.83,47.77,11.74,Evening,Friday,33.1,81.3,30.9,23.5,3,DC Fast,Casual Driver
+U1342,Tesla Model Y,75.0,CS553,Public,31.14,4.64,6.71,5.85,Evening,Monday,42.2,80.3,26.4,-0.8,3,Level 2,Commuter
+U1343,Tesla Model 3,75.0,CS926,Workplace,42.09,6.21,6.82,8.79,Evening,Tuesday,30.0,83.3,65.4,7.7,2,Level 2,Commuter
+U1344,BMW i3,42.2,CS268,Public,15.46,2.23,6.85,2.99,Morning,Sunday,46.1,81.7,60.0,27.2,2,Level 2,Commuter
+U1345,Tesla Model 3,75.0,CS216,Public,43.28,6.93,6.37,9.85,Night,Wednesday,32.3,84.9,14.2,-1.8,1,Level 2,Commuter
+U1346,Tesla Model Y,75.0,CS610,Highway,70.01,11.31,6.52,15.3,Night,Tuesday,12.5,96.5,51.1,-5.0,8,Level 2,Commuter
+U1347,Tesla Model S,100.0,CS652,Home,30.63,0.59,49.56,13.23,Morning,Friday,50.8,81.1,42.2,22.6,5,DC Fast,Casual Driver
+U1348,Tesla Model Y,75.0,CS223,Public,45.49,7.3,6.49,9.5,Afternoon,Tuesday,34.2,93.3,41.9,26.8,3,Level 2,Commuter
+U1349,Kia EV6,77.4,CS329,Highway,25.42,3.81,6.78,4.74,Night,Sunday,50.9,82.9,13.2,13.6,1,Level 2,Commuter
+U1350,Nissan Leaf,40.0,CS963,Public,16.61,2.49,6.99,2.64,Evening,Friday,56.7,96.3,18.4,8.3,3,Level 2,Commuter
+U1351,Tesla Model 3,75.0,CS704,Workplace,40.42,6.33,6.49,9.89,Afternoon,Tuesday,29.9,82.8,15.6,15.3,3,Level 2,Long-Distance Traveler
+U1352,Tesla Model Y,75.0,CS952,Highway,20.74,0.48,46.26,5.89,Night,Friday,55.6,80.1,16.2,-8.1,5,DC Fast,Long-Distance Traveler
+U1353,Tesla Model Y,75.0,CS969,Highway,50.04,7.81,6.36,8.19,Evening,Wednesday,19.8,82.7,46.5,5.6,4,Level 2,Commuter
+U1354,Tesla Model Y,75.0,CS604,Public,53.55,16.66,3.25,5.86,Afternoon,Saturday,16.3,84.5,92.2,8.8,2,Level 1,Commuter
+U1355,Nissan Leaf,40.0,CS249,Highway,15.13,2.22,7.02,3.12,Morning,Tuesday,43.1,78.2,10.2,1.9,8,Level 2,Long-Distance Traveler
+U1356,Tesla Model S,100.0,CS939,Public,49.03,7.45,6.53,7.55,Night,Wednesday,31.4,78.6,25.4,10.5,4,Level 2,Commuter
+U1357,Tesla Model 3,75.0,CS617,Public,73.02,1.63,44.01,25.59,Night,Monday,8.0,92.9,30.5,-12.0,6,DC Fast,Commuter
+U1358,Tesla Model X,100.0,CS139,Home,69.11,1.69,45.88,26.68,Afternoon,Friday,31.2,98.1,54.9,12.1,4,DC Fast,Commuter
+U1359,Kia EV6,77.4,CS178,Highway,41.95,0.88,46.87,16.84,Night,Thursday,27.7,81.5,16.7,18.3,6,DC Fast,Commuter
+U1360,Tesla Model 3,75.0,CS490,Public,53.16,17.8,3.14,7.12,Morning,Monday,29.6,94.2,72.0,-2.4,6,Level 1,Commuter
+U1361,Hyundai Ioniq 5,72.6,CS900,Highway,49.84,1.12,46.8,16.34,Evening,Monday,30.4,92.5,17.5,-3.7,3,DC Fast,Commuter
+U1362,Tesla Model Y,75.0,CS909,Home,28.24,0.49,48.47,10.57,Morning,Tuesday,41.9,79.1,25.6,16.6,2,DC Fast,Casual Driver
+U1363,Tesla Model Y,75.0,CS897,Public,39.74,5.89,7.1,6.48,Morning,Monday,41.4,92.8,30.1,12.7,1,Level 2,Long-Distance Traveler
+U1364,Audi e-tron,95.0,CS780,Highway,25.17,3.51,7.15,5.29,Evening,Monday,57.2,81.1,95.5,-3.6,3,Level 2,Long-Distance Traveler
+U1365,Tesla Model Y,75.0,CS521,Workplace,34.77,0.78,45.04,11.43,Evening,Monday,50.1,95.4,142.9,14.3,3,DC Fast,Casual Driver
+U1366,Chevy Bolt EV,65.0,CS814,Home,29.21,9.49,3.3,3.89,Evening,Friday,54.4,97.7,9.1,29.0,4,Level 1,Long-Distance Traveler
+U1367,Tesla Model X,100.0,CS306,Highway,39.05,6.05,6.4,8.23,Evening,Friday,41.7,79.5,51.2,12.5,3,Level 2,Commuter
+U1368,Hyundai Ioniq 5,72.6,CS735,Public,25.26,3.91,6.53,5.72,Afternoon,Wednesday,45.7,80.4,61.9,20.6,2,Level 2,Commuter
+U1369,Nissan Leaf,40.0,CS759,Public,21.48,3.44,6.66,4.3,Afternoon,Thursday,45.3,96.7,137.2,30.6,2,Level 2,Commuter
+U1370,Nissan Leaf,40.0,CS978,Workplace,16.33,0.28,47.7,4.5,Afternoon,Thursday,40.0,80.1,45.9,24.7,7,DC Fast,Casual Driver
+U1371,Tesla Model S,100.0,CS311,Public,48.86,7.79,6.41,7.68,Afternoon,Wednesday,37.3,83.5,8.3,33.8,1,Level 2,Casual Driver
+U1372,Chevy Bolt EV,65.0,CS474,Workplace,36.3,0.84,45.29,14.03,Night,Thursday,30.9,83.6,65.4,34.2,8,DC Fast,Long-Distance Traveler
+U1373,Nissan Leaf,40.0,CS169,Public,21.67,0.47,49.02,7.37,Night,Saturday,44.4,97.1,59.0,13.1,5,DC Fast,Commuter
+U1374,Tesla Model S,100.0,CS973,Highway,51.88,8.52,6.58,9.23,Morning,Wednesday,48.4,99.5,19.6,16.3,4,Level 2,Long-Distance Traveler
+U1375,Tesla Model 3,75.0,CS262,Public,46.39,6.74,7.18,6.19,Morning,Monday,41.1,95.0,85.4,-12.0,6,Level 2,Commuter
+U1376,BMW i3,42.2,CS897,Public,13.05,0.28,47.59,4.14,Night,Saturday,50.8,81.6,155.0,21.1,5,DC Fast,Commuter
+U1377,Kia EV6,77.4,CS333,Public,57.47,1.32,45.76,18.18,Afternoon,Tuesday,21.3,94.4,168.8,23.9,1,DC Fast,Commuter
+U1378,Tesla Model Y,75.0,CS672,Public,48.06,7.23,6.68,9.2,Night,Friday,20.7,83.7,5.0,24.2,4,Level 2,Commuter
+U1379,Tesla Model Y,75.0,CS758,Home,42.14,14.4,3.11,4.33,Morning,Tuesday,44.0,100.0,42.6,20.9,3,Level 1,Casual Driver
+U1380,Audi e-tron,95.0,CS527,Home,42.91,6.38,6.78,9.52,Afternoon,Sunday,40.0,84.8,8.7,17.9,2,Level 2,Commuter
+U1381,Tesla Model Y,75.0,CS578,Public,46.51,7.23,6.41,10.99,Evening,Saturday,17.8,79.1,32.7,22.9,3,Level 2,Long-Distance Traveler
+U1382,Kia EV6,77.4,CS966,Public,54.93,1.25,47.61,15.45,Morning,Tuesday,25.3,94.3,57.4,13.2,6,DC Fast,Long-Distance Traveler
+U1383,Tesla Model Y,75.0,CS134,Public,28.62,0.54,49.39,12.04,Night,Thursday,41.7,79.4,24.8,23.3,4,DC Fast,Commuter
+U1384,BMW i3,42.2,CS765,Public,3.76,0.58,6.59,0.73,Night,Sunday,75.0,83.2,10.8,1.3,3,Level 2,Commuter
+U1385,Hyundai Ioniq 5,72.6,CS442,Workplace,41.48,6.24,6.59,8.37,Morning,Sunday,27.8,80.0,111.9,-1.6,1,Level 2,Casual Driver
+U1386,BMW i3,42.2,CS873,Highway,14.01,2.13,6.41,2.17,Afternoon,Sunday,52.4,83.3,47.2,2.8,8,Level 2,Commuter
+U1387,Tesla Model 3,75.0,CS726,Public,60.64,1.3,47.61,16.5,Evening,Tuesday,8.0,84.5,36.8,6.6,2,DC Fast,Casual Driver
+U1388,Nissan Leaf,40.0,CS927,Public,17.31,2.63,6.56,3.3,Night,Tuesday,40.4,78.1,30.2,-12.0,7,Level 2,Commuter
+U1389,Tesla Model X,100.0,CS787,Highway,41.18,0.84,45.66,16.8,Evening,Monday,43.2,82.3,8.1,32.5,5,DC Fast,Casual Driver
+U1390,Tesla Model 3,75.0,CS476,Home,41.98,6.43,6.57,6.01,Night,Saturday,26.6,79.8,29.5,7.8,5,Level 2,Casual Driver
+U1391,Tesla Model Y,75.0,CS862,Highway,60.65,8.99,6.85,9.79,Night,Wednesday,10.6,84.5,21.9,-1.3,2,Level 2,Commuter
+U1392,Tesla Model S,100.0,CS324,Public,52.71,1.1,49.54,18.2,Night,Tuesday,35.2,85.0,71.0,6.2,7,DC Fast,Casual Driver
+U1393,Audi e-tron,95.0,CS850,Highway,76.97,12.0,6.8,15.51,Night,Sunday,20.0,97.2,35.0,8.2,7,Level 2,Commuter
+U1394,Tesla Model 3,75.0,CS748,Highway,30.43,9.84,3.13,4.3,Night,Thursday,41.9,82.1,32.1,21.9,2,Level 1,Commuter
+U1395,Kia EV6,77.4,CS330,Home,37.28,0.78,47.78,13.41,Afternoon,Sunday,49.5,95.9,34.1,10.8,4,DC Fast,Commuter
+U1396,Tesla Model X,100.0,CS936,Highway,45.06,6.6,6.86,6.81,Night,Saturday,40.2,84.8,75.2,17.6,4,Level 2,Commuter
+U1397,Tesla Model X,100.0,CS707,Public,46.33,14.17,3.27,6.42,Afternoon,Wednesday,33.1,78.4,51.4,25.2,3,Level 1,Commuter
+U1398,Tesla Model 3,75.0,CS337,Public,26.99,4.16,6.66,4.94,Night,Wednesday,46.3,81.6,68.8,14.8,5,Level 2,Commuter
+U1399,Tesla Model 3,75.0,CS992,Highway,21.88,3.27,6.7,5.17,Evening,Friday,52.9,81.0,24.5,29.5,6,Level 2,Casual Driver
+U1400,Tesla Model X,100.0,CS493,Highway,45.06,6.84,6.65,7.18,Evening,Monday,36.2,80.3,53.9,24.9,7,Level 2,Commuter
+U1401,Hyundai Ioniq 5,72.6,CS412,Public,66.93,10.77,6.59,10.16,Evening,Thursday,15.1,98.5,24.2,-3.8,4,Level 2,Casual Driver
+U1402,Tesla Model 3,75.0,CS581,Public,53.85,8.28,6.83,9.0,Night,Sunday,29.7,96.3,41.8,38.0,1,Level 2,Long-Distance Traveler
+U1403,Hyundai Ioniq 5,72.6,CS307,Highway,46.86,7.32,6.74,8.77,Morning,Friday,32.3,95.2,70.5,13.8,5,Level 2,Long-Distance Traveler
+U1404,Audi e-tron,95.0,CS856,Highway,27.25,4.11,6.67,5.03,Morning,Wednesday,52.4,79.4,57.0,5.2,6,Level 2,Commuter
+U1405,Tesla Model Y,75.0,CS555,Public,38.53,6.19,6.63,5.76,Night,Friday,50.2,99.9,43.3,28.1,5,Level 2,Commuter
+U1406,Tesla Model S,100.0,CS124,Workplace,47.25,15.28,3.22,5.65,Evening,Thursday,44.5,91.7,124.0,20.2,1,Level 1,Commuter
+U1407,Tesla Model S,100.0,CS446,Highway,63.06,19.69,3.22,7.65,Night,Tuesday,20.4,82.1,31.9,14.4,8,Level 1,Long-Distance Traveler
+U1408,Nissan Leaf,40.0,CS449,Public,20.03,3.17,6.37,4.44,Night,Sunday,42.9,92.3,78.1,16.7,4,Level 2,Long-Distance Traveler
+U1409,Tesla Model 3,75.0,CS673,Public,49.88,7.77,6.73,10.17,Morning,Tuesday,29.7,95.1,25.5,15.8,2,Level 2,Commuter
+U1410,Tesla Model 3,75.0,CS538,Home,49.59,1.18,44.47,17.05,Evening,Wednesday,31.9,97.6,39.8,18.5,5,DC Fast,Long-Distance Traveler
+U1411,Tesla Model Y,75.0,CS344,Workplace,22.83,0.41,47.08,10.1,Night,Tuesday,49.0,79.1,17.1,17.6,2,DC Fast,Long-Distance Traveler
+U1412,Tesla Model 3,75.0,CS580,Home,33.52,4.91,6.81,6.92,Night,Sunday,35.1,79.0,168.8,24.4,4,Level 2,Casual Driver
+U1413,Tesla Model S,100.0,CS409,Home,50.89,1.1,44.32,20.1,Morning,Monday,35.0,84.9,213.2,15.5,1,DC Fast,Casual Driver
+U1414,Tesla Model S,100.0,CS576,Workplace,62.69,1.55,44.26,25.47,Night,Wednesday,35.6,94.1,53.7,3.5,7,DC Fast,Casual Driver
+U1415,Tesla Model S,100.0,CS732,Public,70.11,10.09,6.98,11.57,Night,Tuesday,11.4,79.5,130.0,12.9,1,Level 2,Commuter
+U1416,Tesla Model 3,75.0,CS193,Workplace,27.07,3.95,6.92,6.36,Morning,Friday,48.3,82.3,67.2,5.6,4,Level 2,Long-Distance Traveler
+U1417,Tesla Model 3,75.0,CS179,Highway,58.41,8.54,7.13,9.28,Night,Friday,17.2,94.2,31.8,22.9,1,Level 2,Commuter
+U1418,Tesla Model 3,75.0,CS966,Highway,30.66,0.62,48.7,11.29,Afternoon,Wednesday,41.8,82.4,5.0,21.7,2,DC Fast,Long-Distance Traveler
+U1419,Nissan Leaf,40.0,CS702,Highway,19.37,2.93,7.04,4.31,Night,Saturday,51.0,98.9,24.1,22.9,7,Level 2,Commuter
+U1420,Kia EV6,77.4,CS539,Workplace,39.45,6.26,6.36,8.3,Night,Wednesday,33.7,81.5,8.1,4.1,3,Level 2,Commuter
+U1421,Kia EV6,77.4,CS938,Workplace,37.29,0.78,44.56,14.48,Afternoon,Saturday,36.7,83.6,8.8,13.4,6,DC Fast,Commuter
+U1422,Tesla Model X,100.0,CS534,Public,66.22,20.1,3.29,7.92,Morning,Thursday,18.3,81.5,6.9,8.6,5,Level 1,Long-Distance Traveler
+U1423,Tesla Model 3,75.0,CS168,Highway,35.97,0.75,46.32,9.3,Evening,Thursday,39.8,82.2,122.5,-9.0,4,DC Fast,Casual Driver
+U1424,Nissan Leaf,40.0,CS599,Home,17.64,2.74,6.48,2.81,Night,Saturday,44.5,84.5,17.0,-3.5,1,Level 2,Commuter
+U1425,Tesla Model Y,75.0,CS471,Highway,37.87,5.63,6.73,8.41,Evening,Thursday,29.7,79.0,25.4,14.0,6,Level 2,Commuter
+U1426,Kia EV6,77.4,CS510,Public,43.02,6.94,6.43,7.03,Morning,Monday,36.4,91.5,98.2,17.9,7,Level 2,Casual Driver
+U1427,Tesla Model 3,75.0,CS191,Workplace,56.8,8.38,6.85,11.52,Evening,Wednesday,8.0,83.4,26.0,21.1,5,Level 2,Commuter
+U1428,BMW i3,42.2,CS723,Home,21.0,0.54,44.04,7.52,Evening,Saturday,35.7,82.6,65.3,5.6,4,DC Fast,Commuter
+U1429,Tesla Model S,100.0,CS900,Home,41.56,12.67,3.29,4.21,Night,Tuesday,40.7,81.9,34.8,17.6,2,Level 1,Long-Distance Traveler
+U1430,Tesla Model S,100.0,CS169,Workplace,57.62,1.34,46.54,15.98,Night,Monday,29.7,81.7,26.7,-4.3,4,DC Fast,Commuter
+U1431,Nissan Leaf,40.0,CS848,Home,22.36,7.86,3.0,2.28,Evening,Monday,47.7,98.9,24.0,-0.9,2,Level 1,Casual Driver
+U1432,Tesla Model S,100.0,CS883,Highway,45.32,6.44,7.05,10.12,Night,Wednesday,36.7,78.5,29.3,0.6,3,Level 2,Long-Distance Traveler
+U1433,Nissan Leaf,40.0,CS704,Highway,33.55,0.6,47.19,12.2,Evening,Saturday,8.0,91.6,7.6,19.2,8,DC Fast,Commuter
+U1434,Tesla Model Y,75.0,CS216,Workplace,26.89,0.56,44.09,7.4,Evening,Thursday,64.3,98.9,37.4,28.9,1,DC Fast,Long-Distance Traveler
+U1435,Tesla Model Y,75.0,CS303,Home,41.51,6.02,6.9,9.52,Night,Thursday,25.0,78.9,29.9,13.3,1,Level 2,Commuter
+U1436,Tesla Model Y,75.0,CS125,Highway,27.91,9.15,3.16,4.21,Night,Sunday,54.5,90.1,22.7,31.2,3,Level 1,Casual Driver
+U1437,Tesla Model S,100.0,CS650,Highway,89.33,30.0,2.93,14.11,Night,Wednesday,8.0,96.3,42.3,22.9,4,Level 1,Casual Driver
+U1438,Chevy Bolt EV,65.0,CS247,Public,34.5,10.63,3.24,4.85,Night,Sunday,27.1,78.8,17.2,13.8,2,Level 1,Commuter
+U1439,Tesla Model X,100.0,CS111,Public,63.09,21.9,3.01,8.18,Evening,Wednesday,32.7,93.2,106.6,9.6,6,Level 1,Commuter
+U1440,Tesla Model X,100.0,CS194,Home,17.39,2.59,6.95,2.83,Night,Monday,67.5,84.1,58.8,9.0,1,Level 2,Commuter
+U1441,BMW i3,42.2,CS402,Home,24.65,3.5,7.02,5.1,Morning,Friday,27.6,80.9,80.0,-1.9,1,Level 2,Casual Driver
+U1442,Hyundai Ioniq 5,72.6,CS166,Public,53.73,18.05,2.98,5.93,Night,Sunday,8.0,80.4,5.0,25.3,1,Level 1,Commuter
+U1443,Tesla Model 3,75.0,CS800,Workplace,30.38,4.37,7.04,6.15,Afternoon,Tuesday,40.4,80.6,18.8,18.1,1,Level 2,Commuter
+U1444,Tesla Model S,100.0,CS280,Home,68.81,1.6,45.69,24.15,Night,Tuesday,15.7,83.8,37.4,17.3,6,DC Fast,Commuter
+U1445,Tesla Model X,100.0,CS285,Highway,23.31,0.46,46.89,7.45,Night,Saturday,60.2,81.2,14.6,-5.0,1,DC Fast,Long-Distance Traveler
+U1446,BMW i3,42.2,CS531,Highway,27.8,0.68,45.77,8.44,Evening,Monday,29.8,92.5,68.8,31.8,4,DC Fast,Commuter
+U1447,Kia EV6,77.4,CS624,Highway,53.48,8.77,6.48,12.36,Morning,Thursday,30.5,96.2,18.7,32.2,6,Level 2,Commuter
+U1448,Kia EV6,77.4,CS403,Public,26.27,3.91,6.76,6.19,Evening,Wednesday,48.0,81.5,28.7,23.4,2,Level 2,Casual Driver
+U1449,Hyundai Ioniq 5,72.6,CS123,Highway,42.79,0.96,44.59,15.93,Evening,Wednesday,26.7,82.9,27.9,31.4,4,DC Fast,Long-Distance Traveler
+U1450,Tesla Model S,100.0,CS179,Public,40.35,1.0,44.11,11.34,Night,Thursday,56.4,95.2,46.5,29.9,2,DC Fast,Casual Driver
+U1451,Kia EV6,77.4,CS422,Home,34.5,5.26,6.65,7.33,Night,Monday,39.3,81.7,28.0,7.8,2,Level 2,Commuter
+U1452,Tesla Model S,100.0,CS213,Public,72.46,1.6,45.32,29.28,Night,Thursday,8.0,80.2,5.7,19.1,5,DC Fast,Commuter
+U1453,Tesla Model 3,75.0,CS820,Highway,48.85,15.67,3.13,5.96,Evening,Thursday,21.7,82.6,69.2,3.7,1,Level 1,Long-Distance Traveler
+U1454,Kia EV6,77.4,CS855,Home,32.25,0.76,46.3,9.47,Night,Monday,38.6,79.9,16.0,17.8,2,DC Fast,Commuter
+U1455,Tesla Model S,100.0,CS229,Home,37.78,0.93,46.57,10.62,Afternoon,Wednesday,44.4,81.8,53.7,18.1,6,DC Fast,Commuter
+U1456,Nissan Leaf,40.0,CS156,Public,24.64,0.57,44.07,9.3,Evening,Tuesday,37.5,96.4,27.1,31.0,4,DC Fast,Long-Distance Traveler
+U1457,Tesla Model 3,75.0,CS887,Highway,59.38,9.83,6.44,13.59,Afternoon,Tuesday,19.8,98.8,29.4,20.4,2,Level 2,Long-Distance Traveler
+U1458,Chevy Bolt EV,65.0,CS749,Home,21.52,3.22,6.71,4.78,Morning,Wednesday,51.9,84.2,19.6,13.9,5,Level 2,Casual Driver
+U1459,Audi e-tron,95.0,CS550,Public,68.98,24.07,3.05,8.7,Morning,Friday,26.9,97.3,21.1,12.3,2,Level 1,Long-Distance Traveler
+U1460,Tesla Model S,100.0,CS669,Public,55.66,1.23,46.97,23.63,Morning,Tuesday,44.9,98.6,106.5,11.4,4,DC Fast,Casual Driver
+U1461,Tesla Model X,100.0,CS483,Public,46.94,15.13,3.28,5.34,Morning,Wednesday,50.6,97.1,33.3,22.5,8,Level 1,Commuter
+U1462,Tesla Model X,100.0,CS438,Highway,84.86,13.97,6.4,16.01,Evening,Tuesday,13.6,95.9,10.1,27.3,5,Level 2,Commuter
+U1463,Chevy Bolt EV,65.0,CS652,Highway,44.2,14.22,3.25,4.54,Morning,Saturday,28.0,91.4,36.9,36.6,7,Level 1,Casual Driver
+U1464,Tesla Model S,100.0,CS843,Public,55.78,9.37,6.34,10.26,Evening,Tuesday,45.0,98.5,70.4,9.8,6,Level 2,Commuter
+U1465,Tesla Model 3,75.0,CS229,Home,34.36,0.83,46.11,11.99,Night,Thursday,34.3,78.6,11.2,28.1,6,DC Fast,Long-Distance Traveler
+U1466,Tesla Model Y,75.0,CS397,Home,43.59,15.45,2.93,5.75,Evening,Friday,36.1,90.8,12.8,5.0,1,Level 1,Commuter
+U1467,Tesla Model S,100.0,CS418,Workplace,71.05,23.59,3.2,8.45,Night,Tuesday,30.0,96.7,18.8,4.8,1,Level 1,Long-Distance Traveler
+U1468,Audi e-tron,95.0,CS941,Workplace,24.49,0.61,49.07,9.79,Night,Friday,58.2,82.6,39.7,6.3,3,DC Fast,Long-Distance Traveler
+U1469,Tesla Model S,100.0,CS817,Highway,55.2,8.41,6.58,10.96,Afternoon,Monday,28.1,82.8,41.1,22.4,1,Level 2,Long-Distance Traveler
+U1470,Tesla Model Y,75.0,CS615,Workplace,33.04,0.64,45.86,9.27,Night,Tuesday,37.8,80.8,5.0,14.3,5,DC Fast,Casual Driver
+U1471,Hyundai Ioniq 5,72.6,CS626,Home,30.17,0.66,44.7,10.42,Evening,Saturday,41.4,82.9,36.8,19.5,2,DC Fast,Casual Driver
+U1472,Nissan Leaf,40.0,CS152,Workplace,20.93,0.49,47.4,7.87,Night,Saturday,30.4,81.7,34.9,24.9,1,DC Fast,Commuter
+U1473,Audi e-tron,95.0,CS660,Home,61.37,9.8,6.61,12.38,Night,Monday,39.9,96.6,21.7,-10.5,1,Level 2,Commuter
+U1474,Hyundai Ioniq 5,72.6,CS163,Home,28.43,4.15,6.87,5.52,Night,Thursday,44.9,83.2,43.3,25.7,6,Level 2,Long-Distance Traveler
+U1475,Chevy Bolt EV,65.0,CS219,Public,17.78,2.66,6.7,3.06,Morning,Tuesday,53.6,80.2,16.7,13.0,1,Level 2,Commuter
+U1476,Nissan Leaf,40.0,CS551,Public,20.43,2.94,6.97,3.37,Evening,Monday,34.8,84.0,9.9,10.9,1,Level 2,Casual Driver
+U1477,Kia EV6,77.4,CS728,Public,57.89,8.8,6.98,11.16,Afternoon,Sunday,23.1,95.2,30.3,11.1,3,Level 2,Casual Driver
+U1478,Kia EV6,77.4,CS516,Workplace,36.87,5.28,6.96,8.49,Afternoon,Friday,34.4,81.7,17.0,21.7,3,Level 2,Casual Driver
+U1479,Tesla Model Y,75.0,CS981,Public,31.51,10.49,3.16,4.32,Night,Sunday,56.4,97.2,29.9,12.7,2,Level 1,Casual Driver
+U1480,Tesla Model 3,75.0,CS387,Public,46.52,1.01,48.33,20.86,Evening,Sunday,22.2,84.2,66.6,20.3,1,DC Fast,Commuter
+U1481,Tesla Model S,100.0,CS322,Home,79.58,1.83,45.86,23.96,Afternoon,Thursday,23.3,92.7,100.6,-12.0,5,DC Fast,Commuter
+U1482,Tesla Model 3,75.0,CS791,Public,45.17,6.67,6.8,7.56,Night,Wednesday,25.8,82.4,16.8,4.9,6,Level 2,Commuter
+U1483,Tesla Model X,100.0,CS153,Highway,52.9,8.41,6.35,7.78,Evening,Friday,30.0,81.7,91.2,25.8,1,Level 2,Casual Driver
+U1484,Tesla Model 3,75.0,CS205,Public,51.18,8.25,6.54,12.55,Night,Tuesday,29.0,96.1,44.4,23.9,3,Level 2,Commuter
+U1485,Nissan Leaf,40.0,CS412,Workplace,28.88,4.29,7.11,5.11,Morning,Saturday,28.0,94.8,30.8,1.3,5,Level 2,Commuter
+U1486,Tesla Model X,100.0,CS968,Workplace,84.14,13.22,6.59,12.13,Evening,Tuesday,18.9,92.3,43.1,-12.0,4,Level 2,Casual Driver
+U1487,Audi e-tron,95.0,CS543,Workplace,19.95,0.5,49.36,7.58,Evening,Tuesday,57.1,78.0,49.6,18.9,7,DC Fast,Commuter
+U1488,Kia EV6,77.4,CS433,Public,34.04,5.35,6.45,5.25,Night,Sunday,39.8,81.1,31.9,4.9,2,Level 2,Casual Driver
+U1489,Tesla Model Y,75.0,CS263,Public,23.28,8.02,2.93,2.49,Night,Monday,48.6,78.9,40.6,26.0,1,Level 1,Commuter
+U1490,Tesla Model S,100.0,CS355,Public,78.49,12.17,6.67,17.32,Night,Wednesday,20.1,91.2,40.6,-3.6,2,Level 2,Commuter
+U1491,Tesla Model Y,75.0,CS148,Public,32.17,0.6,49.46,12.19,Evening,Wednesday,40.9,80.6,35.4,1.4,3,DC Fast,Commuter
+U1492,Audi e-tron,95.0,CS594,Public,47.02,6.8,6.95,7.19,Night,Saturday,32.3,80.1,95.3,28.6,4,Level 2,Commuter
+U1493,Tesla Model X,100.0,CS778,Home,58.91,9.08,6.58,10.83,Night,Thursday,28.1,83.4,14.1,35.3,2,Level 2,Commuter
+U1494,Tesla Model Y,75.0,CS327,Home,21.47,3.34,6.45,4.32,Evening,Thursday,52.5,79.5,39.6,6.6,4,Level 2,Casual Driver
+U1495,Tesla Model S,100.0,CS635,Workplace,64.44,10.76,6.41,11.86,Night,Wednesday,35.8,99.5,33.1,23.1,6,Level 2,Commuter
+U1496,Tesla Model Y,75.0,CS244,Public,42.41,14.21,2.97,5.21,Evening,Friday,24.2,79.0,25.5,27.4,2,Level 1,Casual Driver
+U1497,Tesla Model X,100.0,CS873,Public,77.48,1.58,47.99,23.97,Night,Friday,8.0,83.2,24.8,27.5,6,DC Fast,Commuter
+U1498,Tesla Model S,100.0,CS191,Home,27.98,4.09,6.91,4.23,Morning,Thursday,50.6,78.4,42.3,18.6,1,Level 2,Commuter
+U1499,Tesla Model Y,75.0,CS485,Highway,43.74,6.71,6.9,8.1,Afternoon,Wednesday,38.1,95.9,19.4,17.9,2,Level 2,Casual Driver
+U1500,Tesla Model S,100.0,CS756,Home,53.36,8.13,6.56,8.96,Afternoon,Saturday,27.3,80.6,110.3,20.0,2,Level 2,Long-Distance Traveler
+U1501,Tesla Model X,100.0,CS949,Public,65.51,9.58,6.89,13.12,Evening,Saturday,18.5,83.3,25.7,22.8,6,Level 2,Casual Driver
+U1502,Tesla Model Y,75.0,CS780,Workplace,36.24,5.0,7.17,8.39,Night,Sunday,33.5,79.9,19.0,29.7,4,Level 2,Commuter
+U1503,Chevy Bolt EV,65.0,CS187,Workplace,22.68,0.48,44.8,7.78,Morning,Sunday,48.9,82.4,181.2,10.2,5,DC Fast,Commuter
+U1504,Tesla Model S,100.0,CS806,Public,48.37,1.2,46.36,13.4,Evening,Monday,47.6,92.4,5.0,38.3,3,DC Fast,Casual Driver
+U1505,Hyundai Ioniq 5,72.6,CS630,Public,40.25,5.55,7.16,9.19,Evening,Sunday,29.3,81.8,13.6,33.5,5,Level 2,Casual Driver
+U1506,Audi e-tron,95.0,CS959,Home,53.83,7.71,7.11,11.98,Morning,Thursday,28.1,84.6,14.2,19.0,2,Level 2,Casual Driver
+U1507,Tesla Model 3,75.0,CS918,Workplace,40.23,6.01,6.71,9.61,Night,Thursday,29.5,81.8,60.2,13.8,5,Level 2,Casual Driver
+U1508,Tesla Model S,100.0,CS440,Public,77.89,11.65,7.09,13.83,Night,Monday,23.0,97.3,15.1,8.4,6,Level 2,Casual Driver
+U1509,Tesla Model Y,75.0,CS948,Workplace,32.35,4.81,6.94,5.1,Evening,Saturday,42.8,84.8,21.7,13.0,6,Level 2,Commuter
+U1510,Tesla Model 3,75.0,CS846,Public,28.41,4.73,6.53,4.4,Evening,Friday,63.4,99.4,5.0,7.1,5,Level 2,Commuter
+U1511,Tesla Model X,100.0,CS312,Workplace,69.59,21.92,3.21,9.16,Evening,Monday,14.7,83.6,36.0,17.5,1,Level 1,Commuter
+U1512,Chevy Bolt EV,65.0,CS791,Workplace,13.41,2.06,6.44,2.36,Morning,Tuesday,73.5,92.7,43.6,3.0,1,Level 2,Commuter
+U1513,Nissan Leaf,40.0,CS579,Workplace,25.93,0.53,49.34,7.7,Night,Monday,15.5,78.7,18.4,26.2,2,DC Fast,Casual Driver
+U1514,Nissan Leaf,40.0,CS434,Workplace,26.85,0.6,47.05,7.98,Morning,Friday,17.0,83.3,23.1,23.3,4,DC Fast,Commuter
+U1515,Chevy Bolt EV,65.0,CS264,Workplace,41.74,6.27,7.08,9.89,Evening,Thursday,35.3,98.9,66.7,22.5,2,Level 2,Casual Driver
+U1516,Tesla Model 3,75.0,CS432,Workplace,41.63,6.64,6.35,8.58,Afternoon,Sunday,31.1,82.5,11.8,1.3,1,Level 2,Casual Driver
+U1517,Tesla Model X,100.0,CS888,Home,71.37,1.6,45.35,31.84,Night,Thursday,8.0,78.9,16.8,18.4,3,DC Fast,Casual Driver
+U1518,Nissan Leaf,40.0,CS423,Workplace,19.79,6.69,2.92,2.4,Evening,Monday,33.1,80.5,71.6,9.4,5,Level 1,Commuter
+U1519,Audi e-tron,95.0,CS811,Public,38.1,5.95,6.75,8.51,Night,Sunday,52.8,92.6,26.0,17.9,1,Level 2,Commuter
+U1520,Tesla Model Y,75.0,CS858,Workplace,55.41,1.19,49.4,19.91,Evening,Friday,26.3,97.3,20.6,10.3,5,DC Fast,Commuter
+U1521,Tesla Model S,100.0,CS561,Highway,39.61,0.9,44.25,15.79,Evening,Wednesday,40.5,78.1,37.6,7.1,3,DC Fast,Commuter
+U1522,Tesla Model 3,75.0,CS669,Workplace,46.32,15.23,3.06,6.21,Evening,Saturday,25.1,81.8,63.8,-0.4,5,Level 1,Commuter
+U1523,Chevy Bolt EV,65.0,CS262,Highway,51.21,7.48,6.92,10.57,Night,Wednesday,8.0,83.4,66.9,9.1,3,Level 2,Casual Driver
+U1524,Tesla Model 3,75.0,CS200,Home,37.1,5.78,6.82,7.99,Morning,Wednesday,53.8,98.8,5.0,-2.5,8,Level 2,Commuter
+U1525,Tesla Model X,100.0,CS605,Highway,87.56,2.06,44.73,32.84,Afternoon,Friday,10.5,91.6,97.2,1.6,1,DC Fast,Commuter
+U1526,Tesla Model Y,75.0,CS958,Highway,37.32,5.68,6.99,6.52,Night,Saturday,49.6,98.9,69.3,22.6,5,Level 2,Commuter
+U1527,Hyundai Ioniq 5,72.6,CS914,Highway,29.39,9.5,3.22,4.09,Evening,Monday,54.1,93.6,32.6,13.9,1,Level 1,Commuter
+U1528,Tesla Model 3,75.0,CS191,Public,49.76,7.95,6.6,7.61,Afternoon,Saturday,32.0,95.4,52.0,8.9,8,Level 2,Commuter
+U1529,Tesla Model X,100.0,CS926,Highway,34.47,5.35,6.44,4.91,Night,Monday,49.4,81.9,18.8,5.3,4,Level 2,Commuter
+U1530,Tesla Model 3,75.0,CS132,Highway,37.19,5.31,6.96,6.81,Afternoon,Wednesday,31.6,80.0,50.7,14.0,6,Level 2,Commuter
+U1531,Tesla Model X,100.0,CS805,Highway,84.83,13.78,6.37,14.29,Night,Sunday,8.0,91.1,14.2,14.8,5,Level 2,Casual Driver
+U1532,Nissan Leaf,40.0,CS601,Home,13.22,0.27,45.55,4.29,Night,Thursday,48.2,78.5,31.3,40.8,4,DC Fast,Commuter
+U1533,Tesla Model S,100.0,CS511,Home,83.5,13.91,6.39,13.8,Evening,Tuesday,23.2,99.4,11.7,42.0,3,Level 2,Casual Driver
+U1534,Tesla Model 3,75.0,CS546,Public,16.69,2.73,6.46,2.55,Evening,Monday,75.0,97.1,23.2,22.2,2,Level 2,Casual Driver
+U1535,Tesla Model 3,75.0,CS253,Workplace,49.36,16.26,3.25,5.07,Evening,Friday,34.2,99.8,27.6,20.9,8,Level 1,Long-Distance Traveler
+U1536,Tesla Model Y,75.0,CS982,Public,25.98,0.55,45.55,7.41,Night,Saturday,52.2,83.0,10.0,-7.7,2,DC Fast,Commuter
+U1537,Nissan Leaf,40.0,CS725,Highway,18.83,2.62,7.06,3.5,Night,Sunday,37.1,82.0,10.0,8.4,5,Level 2,Commuter
+U1538,Nissan Leaf,40.0,CS404,Public,20.49,2.91,7.06,3.29,Night,Monday,32.1,81.2,10.7,30.0,6,Level 2,Long-Distance Traveler
+U1539,Hyundai Ioniq 5,72.6,CS342,Workplace,54.64,1.27,47.29,16.21,Evening,Wednesday,25.4,99.8,20.6,22.9,2,DC Fast,Commuter
+U1540,Tesla Model 3,75.0,CS598,Highway,32.99,4.7,7.12,5.99,Afternoon,Wednesday,38.7,82.6,47.5,19.5,1,Level 2,Casual Driver
+U1541,Nissan Leaf,40.0,CS343,Workplace,30.36,4.36,7.11,5.37,Evening,Tuesday,13.1,84.2,24.4,4.0,3,Level 2,Long-Distance Traveler
+U1542,Nissan Leaf,40.0,CS592,Home,33.45,5.41,6.53,4.78,Evening,Thursday,23.5,99.0,32.4,-4.2,4,Level 2,Casual Driver
+U1543,Tesla Model Y,75.0,CS961,Home,33.0,4.81,6.92,5.74,Evening,Thursday,40.8,83.5,22.2,12.4,6,Level 2,Casual Driver
+U1544,Kia EV6,77.4,CS745,Home,17.6,2.62,6.59,2.86,Evening,Wednesday,62.2,82.2,130.3,-10.3,2,Level 2,Commuter
+U1545,Tesla Model 3,75.0,CS523,Home,61.73,1.51,45.13,20.91,Evening,Wednesday,17.2,98.2,17.3,16.0,4,DC Fast,Long-Distance Traveler
+U1546,Nissan Leaf,40.0,CS733,Workplace,21.77,0.48,49.42,6.86,Night,Wednesday,29.5,80.3,49.3,3.5,4,DC Fast,Long-Distance Traveler
+U1547,BMW i3,42.2,CS220,Highway,25.7,3.92,6.43,4.31,Evening,Friday,24.3,81.4,65.4,4.5,3,Level 2,Casual Driver
+U1548,Tesla Model Y,75.0,CS253,Public,42.46,6.15,7.17,8.86,Morning,Monday,39.2,93.3,37.1,8.8,2,Level 2,Commuter
+U1549,Tesla Model S,100.0,CS857,Highway,74.21,11.07,6.8,17.71,Night,Thursday,8.0,82.1,32.4,19.7,2,Level 2,Commuter
+U1550,BMW i3,42.2,CS890,Public,23.53,3.45,6.79,5.0,Afternoon,Sunday,31.0,82.0,30.9,-1.4,2,Level 2,Casual Driver
+U1551,Tesla Model 3,75.0,CS412,Highway,30.74,0.73,44.34,11.05,Afternoon,Thursday,52.9,92.3,11.8,29.6,7,DC Fast,Commuter
+U1552,Tesla Model Y,75.0,CS144,Highway,28.65,0.69,44.08,8.2,Evening,Sunday,48.7,83.5,6.2,42.0,3,DC Fast,Casual Driver
+U1553,Tesla Model Y,75.0,CS581,Workplace,41.6,14.49,2.93,5.49,Night,Monday,30.5,83.7,21.5,9.7,7,Level 1,Commuter
+U1554,Nissan Leaf,40.0,CS235,Workplace,32.77,4.96,6.9,5.69,Morning,Sunday,20.6,93.3,152.2,-8.2,3,Level 2,Long-Distance Traveler
+U1555,Tesla Model 3,75.0,CS927,Workplace,51.33,7.2,7.14,11.01,Night,Sunday,16.7,79.1,33.5,42.0,3,Level 2,Commuter
+U1556,Tesla Model S,100.0,CS891,Home,60.31,1.34,46.25,23.83,Afternoon,Tuesday,23.9,80.6,40.0,34.6,3,DC Fast,Commuter
+U1557,Tesla Model X,100.0,CS647,Highway,26.82,3.79,7.11,6.24,Afternoon,Tuesday,56.5,82.1,34.2,8.4,6,Level 2,Long-Distance Traveler
+U1558,Nissan Leaf,40.0,CS968,Home,20.06,3.02,6.81,3.55,Morning,Friday,33.0,81.9,34.9,26.3,7,Level 2,Commuter
+U1559,Audi e-tron,95.0,CS694,Workplace,54.44,7.72,7.18,9.36,Night,Tuesday,26.3,83.2,19.8,21.7,3,Level 2,Casual Driver
+U1560,Nissan Leaf,40.0,CS944,Highway,20.98,3.26,6.73,3.56,Night,Saturday,38.5,90.7,53.5,21.0,5,Level 2,Casual Driver
+U1561,Tesla Model 3,75.0,CS773,Highway,26.25,0.42,48.59,11.73,Evening,Monday,48.1,83.1,48.8,20.6,2,DC Fast,Commuter
+U1562,Kia EV6,77.4,CS379,Home,41.9,13.74,3.17,6.2,Night,Sunday,41.2,92.2,19.9,5.7,1,Level 1,Casual Driver
+U1563,Audi e-tron,95.0,CS506,Highway,29.1,4.48,6.51,6.64,Evening,Wednesday,50.8,81.3,43.8,18.9,4,Level 2,Commuter
+U1564,Tesla Model Y,75.0,CS475,Highway,38.98,0.81,48.27,17.16,Night,Sunday,32.9,84.4,10.0,18.1,8,DC Fast,Casual Driver
+U1565,Hyundai Ioniq 5,72.6,CS990,Home,16.62,2.34,6.78,2.38,Evening,Wednesday,58.0,79.0,17.1,40.5,1,Level 2,Commuter
+U1566,Tesla Model Y,75.0,CS511,Public,48.26,6.78,7.06,9.63,Night,Wednesday,17.2,79.9,96.2,13.7,3,Level 2,Long-Distance Traveler
+U1567,Hyundai Ioniq 5,72.6,CS789,Home,19.68,2.84,7.04,3.85,Night,Monday,53.9,80.6,48.0,16.2,3,Level 2,Casual Driver
+U1568,BMW i3,42.2,CS296,Public,22.84,0.47,48.59,8.4,Night,Thursday,38.9,91.9,21.6,15.2,5,DC Fast,Commuter
+U1569,Kia EV6,77.4,CS390,Highway,44.86,0.9,45.08,12.26,Night,Saturday,28.5,85.0,27.9,13.7,2,DC Fast,Casual Driver
+U1570,Hyundai Ioniq 5,72.6,CS593,Public,42.85,6.9,6.34,6.4,Night,Monday,26.9,84.5,33.1,26.0,6,Level 2,Long-Distance Traveler
+U1571,Tesla Model 3,75.0,CS295,Workplace,39.59,5.74,7.11,6.46,Evening,Thursday,40.5,93.0,38.3,18.9,1,Level 2,Long-Distance Traveler
+U1572,Tesla Model 3,75.0,CS929,Highway,42.14,6.01,7.12,10.29,Afternoon,Wednesday,25.7,80.6,72.7,25.7,8,Level 2,Commuter
+U1573,Tesla Model X,100.0,CS333,Workplace,51.61,8.18,6.37,10.59,Morning,Friday,30.3,80.5,21.5,13.0,7,Level 2,Commuter
+U1574,Kia EV6,77.4,CS636,Public,31.19,4.35,7.13,6.78,Afternoon,Monday,44.6,82.4,212.9,4.6,6,Level 2,Commuter
+U1575,Tesla Model S,100.0,CS441,Workplace,44.61,6.98,6.44,10.28,Afternoon,Thursday,38.7,81.8,11.8,28.4,1,Level 2,Commuter
+U1576,Tesla Model 3,75.0,CS302,Public,39.96,0.85,45.73,15.39,Afternoon,Tuesday,30.2,79.6,16.0,2.2,3,DC Fast,Long-Distance Traveler
+U1577,Audi e-tron,95.0,CS701,Highway,39.29,6.08,6.44,9.0,Night,Saturday,39.8,78.6,28.5,4.2,6,Level 2,Casual Driver
+U1578,Tesla Model Y,75.0,CS588,Home,29.62,4.28,6.96,5.17,Evening,Wednesday,39.1,78.4,11.2,18.9,5,Level 2,Casual Driver
+U1579,Hyundai Ioniq 5,72.6,CS123,Workplace,59.26,1.32,44.47,22.75,Afternoon,Tuesday,8.0,79.2,12.7,-12.0,4,DC Fast,Commuter
+U1580,Tesla Model 3,75.0,CS623,Public,24.72,3.55,6.93,3.95,Night,Thursday,47.4,78.7,35.0,7.3,5,Level 2,Long-Distance Traveler
+U1581,Nissan Leaf,40.0,CS146,Public,28.58,4.33,6.63,5.48,Evening,Tuesday,14.0,79.0,67.3,-2.5,2,Level 2,Casual Driver
+U1582,Tesla Model Y,75.0,CS266,Public,31.69,4.39,7.15,5.08,Afternoon,Friday,38.9,78.1,56.1,38.6,6,Level 2,Commuter
+U1583,Tesla Model 3,75.0,CS850,Workplace,41.51,5.79,7.11,7.54,Afternoon,Tuesday,29.9,83.0,226.9,9.7,1,Level 2,Casual Driver
+U1584,Nissan Leaf,40.0,CS446,Workplace,16.12,5.03,3.29,1.89,Night,Friday,37.7,78.0,24.5,19.9,8,Level 1,Casual Driver
+U1585,Tesla Model S,100.0,CS675,Workplace,46.43,6.56,7.1,7.2,Afternoon,Tuesday,32.5,78.3,20.3,16.5,1,Level 2,Casual Driver
+U1586,Tesla Model 3,75.0,CS980,Public,47.95,1.16,44.68,13.42,Evening,Friday,31.1,93.9,47.6,24.4,3,DC Fast,Casual Driver
+U1587,Tesla Model 3,75.0,CS464,Highway,60.67,1.52,44.58,25.18,Night,Friday,18.0,97.9,31.7,22.9,6,DC Fast,Commuter
+U1588,Tesla Model 3,75.0,CS639,Workplace,65.67,10.33,6.81,14.05,Night,Sunday,13.9,97.1,16.1,32.5,3,Level 2,Long-Distance Traveler
+U1589,Hyundai Ioniq 5,72.6,CS576,Workplace,51.49,17.09,3.0,6.94,Night,Sunday,10.1,78.9,10.2,27.6,5,Level 1,Commuter
+U1590,Chevy Bolt EV,65.0,CS982,Workplace,32.95,0.72,44.74,11.16,Afternoon,Sunday,35.4,84.5,39.8,28.1,2,DC Fast,Commuter
+U1591,Audi e-tron,95.0,CS986,Workplace,56.52,18.69,3.04,6.97,Morning,Saturday,23.8,81.7,41.3,13.5,1,Level 1,Commuter
+U1592,Nissan Leaf,40.0,CS622,Home,18.42,2.65,6.89,3.31,Evening,Friday,36.6,79.8,19.9,4.3,6,Level 2,Long-Distance Traveler
+U1593,Tesla Model Y,75.0,CS425,Workplace,32.43,5.15,6.57,5.11,Morning,Friday,54.9,97.0,22.8,26.1,3,Level 2,Commuter
+U1594,Tesla Model S,100.0,CS506,Home,66.25,21.3,3.12,8.65,Afternoon,Friday,20.3,81.2,28.5,0.0,1,Level 1,Commuter
+U1595,Kia EV6,77.4,CS242,Public,26.29,4.04,6.82,5.63,Night,Wednesday,58.7,92.2,14.3,16.1,2,Level 2,Casual Driver
+U1596,Tesla Model X,100.0,CS178,Home,43.05,0.9,47.77,17.99,Afternoon,Friday,41.2,83.5,27.7,15.9,2,DC Fast,Long-Distance Traveler
+U1597,Tesla Model Y,75.0,CS782,Workplace,16.63,2.37,6.91,3.74,Afternoon,Thursday,60.0,80.2,36.8,-2.7,3,Level 2,Commuter
+U1598,Tesla Model X,100.0,CS504,Workplace,22.04,0.33,48.78,6.31,Night,Wednesday,59.0,80.1,50.0,31.7,3,DC Fast,Casual Driver
+U1599,Kia EV6,77.4,CS226,Public,57.29,1.25,45.9,23.41,Afternoon,Saturday,13.8,82.3,44.2,1.3,1,DC Fast,Commuter
+U1600,Tesla Model 3,75.0,CS968,Public,17.73,2.74,6.49,3.16,Night,Sunday,55.7,78.5,51.2,28.9,4,Level 2,Commuter
+U1601,Tesla Model S,100.0,CS370,Home,33.88,0.83,48.58,10.7,Night,Monday,61.3,93.8,52.9,9.7,5,DC Fast,Commuter
+U1602,Nissan Leaf,40.0,CS425,Public,26.84,4.05,6.71,5.81,Night,Saturday,14.3,79.4,23.1,12.3,1,Level 2,Casual Driver
+U1603,Tesla Model 3,75.0,CS159,Highway,25.42,0.57,44.43,8.28,Afternoon,Sunday,47.9,80.1,24.8,32.3,2,DC Fast,Casual Driver
+U1604,Nissan Leaf,40.0,CS646,Highway,25.86,0.52,49.6,7.84,Night,Wednesday,38.9,98.0,33.2,41.4,1,DC Fast,Commuter
+U1605,Tesla Model Y,75.0,CS420,Workplace,41.3,14.22,2.92,4.36,Night,Monday,29.8,82.0,25.6,7.1,3,Level 1,Casual Driver
+U1606,Tesla Model S,100.0,CS260,Public,48.37,0.96,48.7,16.54,Afternoon,Wednesday,37.7,79.9,77.2,-12.0,1,DC Fast,Commuter
+U1607,Tesla Model S,100.0,CS760,Public,47.03,6.68,7.17,10.17,Evening,Tuesday,36.8,83.1,22.3,16.2,1,Level 2,Long-Distance Traveler
+U1608,Tesla Model Y,75.0,CS399,Public,51.8,8.05,6.5,10.92,Night,Saturday,19.6,82.8,55.7,-1.1,5,Level 2,Casual Driver
+U1609,Tesla Model X,100.0,CS130,Highway,56.77,1.24,47.27,19.12,Night,Tuesday,33.8,84.2,29.5,-8.2,1,DC Fast,Commuter
+U1610,Tesla Model Y,75.0,CS477,Home,44.12,1.0,44.14,14.18,Afternoon,Friday,35.4,93.1,48.4,15.4,1,DC Fast,Commuter
+U1611,Tesla Model S,100.0,CS391,Highway,49.79,7.15,7.07,8.35,Afternoon,Saturday,36.0,83.5,11.2,8.8,2,Level 2,Long-Distance Traveler
+U1612,Kia EV6,77.4,CS220,Home,36.09,11.93,3.16,4.13,Morning,Thursday,48.2,94.2,39.3,16.6,1,Level 1,Long-Distance Traveler
+U1613,Tesla Model 3,75.0,CS309,Public,38.35,5.89,6.55,5.98,Night,Thursday,32.4,79.8,87.1,38.1,6,Level 2,Casual Driver
+U1614,Tesla Model 3,75.0,CS834,Public,18.9,0.5,44.52,5.84,Morning,Monday,56.5,81.5,81.9,17.9,6,DC Fast,Casual Driver
+U1615,Tesla Model X,100.0,CS443,Workplace,22.03,3.22,7.06,3.54,Afternoon,Wednesday,60.7,82.4,81.4,23.7,3,Level 2,Commuter
+U1616,Tesla Model Y,75.0,CS452,Workplace,39.13,0.79,46.13,14.65,Afternoon,Tuesday,27.7,79.5,49.9,18.2,2,DC Fast,Casual Driver
+U1617,Nissan Leaf,40.0,CS904,Public,25.19,3.8,6.66,3.75,Evening,Sunday,18.0,79.3,58.8,13.5,1,Level 2,Long-Distance Traveler
+U1618,Tesla Model X,100.0,CS243,Workplace,73.03,11.22,6.49,11.35,Afternoon,Monday,8.5,79.8,8.5,13.9,4,Level 2,Long-Distance Traveler
+U1619,Kia EV6,77.4,CS227,Workplace,38.01,5.76,6.93,9.07,Evening,Wednesday,41.2,90.3,44.4,19.8,4,Level 2,Commuter
+U1620,Tesla Model X,100.0,CS422,Highway,76.55,24.02,3.22,10.47,Night,Monday,11.1,82.7,32.4,4.0,6,Level 1,Long-Distance Traveler
+U1621,Chevy Bolt EV,65.0,CS766,Public,37.88,0.79,44.02,12.04,Evening,Monday,30.5,84.5,11.3,1.4,1,DC Fast,Commuter
+U1622,Nissan Leaf,40.0,CS556,Highway,25.16,4.25,6.37,5.72,Night,Tuesday,35.8,98.0,17.3,17.2,1,Level 2,Commuter
+U1623,BMW i3,42.2,CS788,Workplace,15.01,2.1,7.17,2.44,Night,Tuesday,46.0,79.6,14.1,34.3,8,Level 2,Commuter
+U1624,Kia EV6,77.4,CS202,Highway,48.88,8.05,6.36,8.86,Morning,Monday,33.3,95.4,41.5,24.3,4,Level 2,Commuter
+U1625,Audi e-tron,95.0,CS246,Workplace,34.69,0.68,47.82,12.77,Morning,Thursday,42.2,78.1,227.3,15.8,1,DC Fast,Commuter
+U1626,Chevy Bolt EV,65.0,CS441,Home,34.7,0.83,44.56,12.27,Afternoon,Sunday,30.0,82.2,59.3,25.4,2,DC Fast,Long-Distance Traveler
+U1627,Nissan Leaf,40.0,CS170,Highway,34.58,5.54,6.43,7.69,Afternoon,Friday,13.4,93.0,17.0,39.8,2,Level 2,Commuter
+U1628,Tesla Model S,100.0,CS898,Home,12.64,1.78,7.19,2.22,Night,Wednesday,68.3,80.9,70.2,18.7,2,Level 2,Long-Distance Traveler
+U1629,Tesla Model 3,75.0,CS838,Home,38.93,5.72,6.8,6.72,Night,Sunday,28.6,79.9,32.1,22.9,5,Level 2,Casual Driver
+U1630,Tesla Model 3,75.0,CS668,Home,36.95,5.58,6.91,5.27,Night,Saturday,52.2,98.3,68.0,4.1,4,Level 2,Casual Driver
+U1631,Tesla Model S,100.0,CS450,Highway,74.01,11.19,6.71,15.37,Night,Wednesday,12.2,83.8,116.8,11.8,4,Level 2,Commuter
+U1632,Tesla Model Y,75.0,CS448,Home,43.49,6.46,6.74,8.34,Afternoon,Monday,22.3,79.7,46.3,17.4,1,Level 2,Commuter
+U1633,Tesla Model Y,75.0,CS871,Public,41.11,6.24,6.6,7.88,Evening,Thursday,29.7,81.2,36.8,35.0,3,Level 2,Commuter
+U1634,Chevy Bolt EV,65.0,CS103,Highway,28.74,0.67,45.38,10.78,Evening,Friday,50.5,92.9,14.0,10.0,7,DC Fast,Commuter
+U1635,Kia EV6,77.4,CS572,Highway,46.83,7.49,6.49,9.86,Evening,Sunday,35.8,95.5,6.3,23.5,1,Level 2,Commuter
+U1636,Tesla Model 3,75.0,CS289,Highway,45.94,7.14,6.5,8.39,Evening,Friday,24.0,84.1,25.8,24.6,4,Level 2,Commuter
+U1637,Tesla Model 3,75.0,CS430,Public,51.77,8.29,6.35,9.79,Night,Tuesday,14.5,83.4,115.2,19.5,1,Level 2,Long-Distance Traveler
+U1638,Tesla Model Y,75.0,CS864,Home,22.8,0.49,49.37,6.74,Night,Saturday,63.9,93.0,12.7,9.4,1,DC Fast,Casual Driver
+U1639,Chevy Bolt EV,65.0,CS152,Public,47.1,7.07,6.92,6.82,Evening,Saturday,23.5,90.6,26.6,38.5,3,Level 2,Casual Driver
+U1640,Audi e-tron,95.0,CS342,Public,30.79,10.51,3.08,3.54,Night,Friday,62.0,92.5,27.1,34.4,2,Level 1,Casual Driver
+U1641,Hyundai Ioniq 5,72.6,CS347,Public,42.16,6.43,6.64,9.22,Afternoon,Friday,27.0,82.1,7.1,7.1,2,Level 2,Commuter
+U1642,Kia EV6,77.4,CS570,Highway,46.98,6.72,7.0,7.72,Afternoon,Tuesday,23.7,81.4,46.2,7.6,4,Level 2,Long-Distance Traveler
+U1643,Tesla Model X,100.0,CS137,Public,42.3,6.35,6.77,8.01,Evening,Friday,44.5,83.9,100.8,2.5,3,Level 2,Long-Distance Traveler
+U1644,Tesla Model X,100.0,CS423,Highway,69.02,11.07,6.56,12.57,Night,Friday,28.7,96.3,72.3,25.2,1,Level 2,Casual Driver
+U1645,Tesla Model 3,75.0,CS273,Workplace,48.1,0.98,48.81,14.85,Night,Friday,16.1,79.1,5.0,15.5,3,DC Fast,Commuter
+U1646,Nissan Leaf,40.0,CS920,Home,28.23,8.91,3.3,4.31,Evening,Thursday,23.6,91.0,63.9,31.1,1,Level 1,Long-Distance Traveler
+U1647,Nissan Leaf,40.0,CS868,Public,16.7,2.53,6.91,3.37,Evening,Saturday,52.3,90.9,14.2,39.1,2,Level 2,Long-Distance Traveler
+U1648,Audi e-tron,95.0,CS909,Home,57.7,1.28,49.72,19.72,Night,Saturday,37.5,95.2,45.7,32.5,5,DC Fast,Commuter
+U1649,Tesla Model 3,75.0,CS505,Highway,24.56,0.48,44.57,7.76,Evening,Thursday,46.9,78.4,123.0,10.6,5,DC Fast,Long-Distance Traveler
+U1650,Tesla Model Y,75.0,CS321,Highway,49.49,7.0,7.15,10.11,Evening,Saturday,16.7,82.4,22.5,21.2,5,Level 2,Commuter
+U1651,Tesla Model Y,75.0,CS501,Home,26.97,3.91,6.89,6.03,Night,Friday,49.2,83.0,20.9,4.7,3,Level 2,Commuter
+U1652,Tesla Model S,100.0,CS243,Home,25.21,3.69,6.83,5.81,Night,Wednesday,54.3,78.3,202.1,7.5,3,Level 2,Commuter
+U1653,Tesla Model 3,75.0,CS330,Workplace,35.13,5.39,6.5,6.74,Evening,Sunday,32.2,78.7,111.9,17.9,1,Level 2,Casual Driver
+U1654,Audi e-tron,95.0,CS815,Highway,52.84,8.34,6.46,9.33,Evening,Tuesday,38.1,90.9,57.7,7.5,1,Level 2,Commuter
+U1655,Tesla Model 3,75.0,CS155,Public,61.17,1.32,48.95,25.39,Night,Friday,8.0,83.7,95.3,2.2,6,DC Fast,Commuter
+U1656,Tesla Model Y,75.0,CS310,Highway,58.91,9.04,6.92,10.38,Night,Monday,24.6,97.6,5.0,2.5,2,Level 2,Commuter
+U1657,Tesla Model 3,75.0,CS115,Public,49.59,7.45,6.69,9.28,Night,Sunday,21.5,81.8,9.0,-1.8,7,Level 2,Casual Driver
+U1658,Tesla Model Y,75.0,CS223,Workplace,6.09,0.92,6.58,1.21,Morning,Saturday,73.3,81.3,116.1,16.4,2,Level 2,Commuter
+U1659,Kia EV6,77.4,CS502,Highway,24.3,0.54,46.37,7.52,Evening,Friday,50.7,78.8,33.5,-6.6,1,DC Fast,Commuter
+U1660,Tesla Model Y,75.0,CS775,Public,34.89,5.1,7.11,6.63,Night,Thursday,45.4,91.7,44.8,20.8,5,Level 2,Commuter
+U1661,Audi e-tron,95.0,CS843,Public,63.52,9.43,6.73,12.02,Night,Tuesday,15.8,81.6,39.7,24.0,3,Level 2,Commuter
+U1662,Tesla Model 3,75.0,CS292,Highway,55.61,1.23,46.09,22.11,Night,Sunday,11.1,80.9,5.0,5.5,5,DC Fast,Commuter
+U1663,Tesla Model S,100.0,CS276,Home,30.92,9.63,3.23,2.89,Night,Monday,51.1,79.2,105.7,-2.8,2,Level 1,Casual Driver
+U1664,Tesla Model X,100.0,CS794,Workplace,29.3,4.33,7.0,5.21,Morning,Wednesday,66.4,93.3,33.2,-1.1,6,Level 2,Casual Driver
+U1665,Tesla Model X,100.0,CS802,Workplace,55.7,17.57,3.19,5.05,Night,Wednesday,33.0,81.6,39.7,-12.0,1,Level 1,Long-Distance Traveler
+U1666,Nissan Leaf,40.0,CS971,Home,27.12,8.72,3.19,2.98,Night,Monday,19.6,84.1,41.1,7.6,2,Level 1,Commuter
+U1667,Tesla Model X,100.0,CS908,Public,63.9,9.28,6.92,15.25,Night,Thursday,19.7,83.2,16.1,21.6,1,Level 2,Commuter
+U1668,Chevy Bolt EV,65.0,CS900,Highway,31.47,4.99,6.42,4.95,Morning,Saturday,38.8,84.6,28.0,6.2,2,Level 2,Long-Distance Traveler
+U1669,Nissan Leaf,40.0,CS430,Public,26.59,0.6,47.77,7.32,Night,Sunday,23.7,84.8,115.7,40.1,6,DC Fast,Casual Driver
+U1670,Tesla Model X,100.0,CS165,Workplace,57.32,1.3,48.13,18.47,Night,Tuesday,43.0,95.5,19.3,40.7,5,DC Fast,Commuter
+U1671,Tesla Model Y,75.0,CS790,Public,23.02,0.47,49.29,9.03,Evening,Saturday,48.7,79.4,38.8,19.3,7,DC Fast,Commuter
+U1672,Nissan Leaf,40.0,CS913,Home,24.61,0.54,46.47,10.37,Morning,Monday,28.9,90.2,27.4,20.8,6,DC Fast,Commuter
+U1673,Tesla Model 3,75.0,CS739,Home,39.86,12.09,3.27,4.6,Afternoon,Thursday,28.2,79.0,13.7,8.9,2,Level 1,Commuter
+U1674,BMW i3,42.2,CS816,Highway,23.47,0.4,49.82,7.03,Evening,Saturday,29.0,80.5,12.0,38.2,4,DC Fast,Commuter
+U1675,Nissan Leaf,40.0,CS476,Highway,20.82,6.55,3.16,2.63,Morning,Tuesday,29.4,79.5,90.6,29.5,5,Level 1,Commuter
+U1676,Chevy Bolt EV,65.0,CS823,Highway,25.61,3.75,6.92,5.45,Evening,Wednesday,43.0,81.3,32.0,26.6,3,Level 2,Commuter
+U1677,Tesla Model Y,75.0,CS651,Public,23.18,3.39,6.98,3.84,Afternoon,Thursday,54.5,84.5,75.6,12.8,3,Level 2,Commuter
+U1678,Tesla Model 3,75.0,CS864,Highway,54.02,7.71,7.11,12.77,Night,Thursday,13.4,83.6,41.5,13.5,1,Level 2,Commuter
+U1679,Tesla Model X,100.0,CS309,Home,71.44,1.63,45.55,28.68,Evening,Friday,14.5,79.8,39.5,-1.3,3,DC Fast,Casual Driver
+U1680,Tesla Model X,100.0,CS965,Home,36.57,5.09,7.18,6.82,Night,Sunday,43.7,78.7,16.5,9.6,3,Level 2,Commuter
+U1681,Tesla Model S,100.0,CS366,Home,70.84,10.93,6.97,11.0,Evening,Wednesday,29.8,99.2,63.4,15.0,1,Level 2,Commuter
+U1682,Tesla Model 3,75.0,CS122,Public,58.4,1.29,44.45,18.69,Night,Thursday,12.9,83.1,16.7,-4.6,4,DC Fast,Casual Driver
+U1683,Chevy Bolt EV,65.0,CS738,Home,31.92,4.7,7.07,5.72,Night,Wednesday,44.7,91.5,11.5,7.8,7,Level 2,Casual Driver
+U1684,Tesla Model 3,75.0,CS814,Highway,49.72,7.45,6.72,11.86,Night,Tuesday,17.6,81.3,95.4,10.3,2,Level 2,Commuter
+U1685,Nissan Leaf,40.0,CS128,Highway,22.54,3.48,6.72,5.27,Evening,Friday,34.7,91.0,29.7,19.7,3,Level 2,Casual Driver
+U1686,Chevy Bolt EV,65.0,CS506,Workplace,25.72,8.2,3.17,2.4,Evening,Saturday,45.6,82.0,13.8,-0.1,7,Level 1,Commuter
+U1687,Nissan Leaf,40.0,CS625,Workplace,15.64,0.36,49.25,4.6,Night,Friday,41.4,79.7,24.0,15.2,2,DC Fast,Commuter
+U1688,Kia EV6,77.4,CS485,Highway,49.71,7.4,7.11,9.4,Evening,Tuesday,33.1,94.7,40.2,30.1,1,Level 2,Commuter
+U1689,Tesla Model 3,75.0,CS553,Workplace,23.47,3.31,7.06,3.41,Night,Friday,50.0,80.1,73.9,10.1,2,Level 2,Commuter
+U1690,Audi e-tron,95.0,CS719,Public,50.47,8.22,6.41,11.5,Evening,Tuesday,45.3,94.2,118.0,-0.0,2,Level 2,Commuter
+U1691,Tesla Model 3,75.0,CS547,Highway,42.67,6.18,6.99,8.77,Night,Wednesday,21.4,78.1,24.0,20.9,1,Level 2,Commuter
+U1692,Tesla Model Y,75.0,CS114,Home,56.73,1.41,45.11,24.25,Night,Friday,24.3,98.5,90.2,24.9,1,DC Fast,Commuter
+U1693,Tesla Model X,100.0,CS438,Highway,50.59,7.21,7.09,10.94,Night,Friday,28.7,79.0,13.0,18.9,2,Level 2,Commuter
+U1694,Tesla Model Y,75.0,CS654,Workplace,47.17,1.18,44.73,15.1,Morning,Sunday,22.4,84.7,11.6,22.6,1,DC Fast,Commuter
+U1695,Tesla Model X,100.0,CS479,Workplace,28.87,0.58,49.0,12.07,Night,Tuesday,52.9,81.5,21.0,17.7,7,DC Fast,Casual Driver
+U1696,Tesla Model 3,75.0,CS321,Public,59.0,18.44,3.25,6.87,Night,Wednesday,8.0,84.2,55.1,12.0,5,Level 1,Commuter
+U1697,Tesla Model 3,75.0,CS549,Home,34.66,0.83,44.12,13.06,Night,Friday,38.5,80.6,39.6,-2.1,6,DC Fast,Commuter
+U1698,Tesla Model Y,75.0,CS315,Public,54.51,8.83,6.48,10.78,Afternoon,Monday,22.9,93.4,41.9,12.4,2,Level 2,Commuter
+U1699,Audi e-tron,95.0,CS365,Home,54.62,18.97,3.0,7.44,Morning,Wednesday,36.7,92.1,11.6,29.2,2,Level 1,Commuter
+U1700,Tesla Model X,100.0,CS401,Public,57.37,1.31,44.97,24.18,Afternoon,Monday,33.9,90.7,13.5,17.6,1,DC Fast,Long-Distance Traveler
+U1701,Tesla Model S,100.0,CS621,Public,65.67,10.33,6.39,13.32,Evening,Wednesday,14.2,79.3,48.8,22.2,6,Level 2,Commuter
+U1702,Tesla Model 3,75.0,CS545,Workplace,39.21,0.82,49.28,12.28,Evening,Saturday,42.8,93.4,13.1,11.9,1,DC Fast,Commuter
+U1703,Tesla Model 3,75.0,CS603,Public,53.63,16.64,3.22,6.63,Evening,Friday,10.2,79.1,52.2,11.0,2,Level 1,Casual Driver
+U1704,Tesla Model S,100.0,CS989,Highway,68.48,10.36,6.84,11.15,Evening,Tuesday,23.0,90.2,47.3,24.4,3,Level 2,Commuter
+U1705,Tesla Model 3,75.0,CS829,Highway,34.12,5.03,6.97,7.14,Night,Wednesday,33.3,78.2,16.0,22.8,2,Level 2,Commuter
+U1706,Tesla Model S,100.0,CS835,Home,53.73,1.1,49.23,21.17,Evening,Wednesday,43.1,93.8,15.3,6.2,4,DC Fast,Casual Driver
+U1707,Tesla Model 3,75.0,CS316,Home,54.41,8.73,6.56,11.97,Evening,Sunday,27.9,96.3,25.8,5.6,1,Level 2,Commuter
+U1708,Tesla Model 3,75.0,CS810,Highway,28.65,0.63,48.16,9.52,Evening,Monday,46.6,83.8,36.7,13.2,1,DC Fast,Casual Driver
+U1709,Audi e-tron,95.0,CS237,Workplace,43.88,6.13,7.13,9.25,Night,Monday,37.6,82.1,25.2,11.1,5,Level 2,Long-Distance Traveler
+U1710,Tesla Model 3,75.0,CS776,Home,59.87,9.03,6.96,10.29,Night,Sunday,20.0,96.8,9.4,10.6,3,Level 2,Commuter
+U1711,Tesla Model Y,75.0,CS812,Highway,35.64,0.75,47.41,12.72,Morning,Monday,39.8,82.0,37.0,-7.8,3,DC Fast,Commuter
+U1712,Chevy Bolt EV,65.0,CS497,Workplace,23.71,7.36,3.25,3.07,Morning,Tuesday,47.3,83.4,58.7,17.6,6,Level 1,Long-Distance Traveler
+U1713,Tesla Model Y,75.0,CS417,Highway,59.33,9.09,6.78,10.4,Evening,Wednesday,15.7,93.5,63.4,16.0,5,Level 2,Long-Distance Traveler
+U1714,Tesla Model 3,75.0,CS421,Public,37.8,0.85,46.81,12.14,Morning,Tuesday,35.3,80.4,8.7,-6.3,2,DC Fast,Commuter
+U1715,Tesla Model 3,75.0,CS541,Workplace,46.28,6.71,7.19,11.35,Night,Thursday,32.2,93.3,29.9,22.2,1,Level 2,Casual Driver
+U1716,Tesla Model Y,75.0,CS422,Public,54.55,8.24,6.71,12.66,Night,Saturday,12.4,84.6,36.5,18.3,2,Level 2,Commuter
+U1717,Tesla Model Y,75.0,CS861,Workplace,32.52,10.9,3.03,3.28,Afternoon,Thursday,42.6,83.9,34.2,8.0,3,Level 1,Long-Distance Traveler
+U1718,Tesla Model X,100.0,CS510,Workplace,60.4,1.4,48.65,20.62,Evening,Wednesday,38.3,96.5,50.0,10.5,2,DC Fast,Long-Distance Traveler
+U1719,BMW i3,42.2,CS919,Home,16.89,5.79,2.97,2.16,Night,Monday,42.5,81.0,56.4,29.4,2,Level 1,Commuter
+U1720,Chevy Bolt EV,65.0,CS837,Workplace,18.82,2.78,6.72,3.91,Evening,Thursday,52.1,79.4,11.4,5.7,3,Level 2,Commuter
+U1721,Hyundai Ioniq 5,72.6,CS588,Highway,39.68,5.59,6.94,8.69,Evening,Tuesday,30.1,80.2,5.5,-1.0,3,Level 2,Commuter
+U1722,Tesla Model 3,75.0,CS581,Highway,44.08,7.14,6.44,10.16,Evening,Friday,37.4,95.0,95.4,15.0,5,Level 2,Long-Distance Traveler
+U1723,Audi e-tron,95.0,CS356,Workplace,51.89,7.96,6.49,11.6,Afternoon,Monday,25.9,80.3,17.7,21.1,1,Level 2,Casual Driver
+U1724,Tesla Model X,100.0,CS625,Public,54.51,7.96,7.02,9.59,Morning,Saturday,33.2,85.0,75.4,7.5,2,Level 2,Casual Driver
+U1725,Audi e-tron,95.0,CS124,Highway,53.85,1.12,45.24,15.31,Night,Thursday,33.0,84.3,13.5,-3.8,3,DC Fast,Commuter
+U1726,Nissan Leaf,40.0,CS425,Public,22.93,0.46,48.64,8.59,Night,Friday,22.5,79.2,10.9,22.9,1,DC Fast,Commuter
+U1727,Kia EV6,77.4,CS607,Workplace,59.39,8.9,6.81,13.88,Afternoon,Saturday,8.0,84.1,9.2,17.8,4,Level 2,Long-Distance Traveler
+U1728,Chevy Bolt EV,65.0,CS215,Public,28.51,4.32,7.06,4.88,Night,Monday,48.1,90.0,55.5,31.2,2,Level 2,Commuter
+U1729,Tesla Model X,100.0,CS344,Workplace,56.39,8.34,6.75,12.31,Night,Friday,26.2,82.0,44.7,17.1,1,Level 2,Commuter
+U1730,Tesla Model Y,75.0,CS204,Workplace,25.12,7.79,3.23,3.7,Afternoon,Tuesday,46.0,79.0,24.0,16.0,4,Level 1,Commuter
+U1731,Tesla Model X,100.0,CS151,Workplace,67.39,10.22,6.6,14.11,Afternoon,Monday,13.3,80.1,174.2,21.9,2,Level 2,Casual Driver
+U1732,Tesla Model X,100.0,CS487,Highway,56.13,18.41,3.22,6.11,Evening,Friday,45.3,97.3,43.8,1.8,2,Level 1,Long-Distance Traveler
+U1733,Tesla Model S,100.0,CS912,Public,48.4,16.83,2.92,7.0,Evening,Wednesday,35.5,81.8,18.4,9.4,2,Level 1,Casual Driver
+U1734,Tesla Model Y,75.0,CS524,Workplace,49.45,7.6,6.61,10.51,Night,Wednesday,20.6,84.5,13.4,28.0,6,Level 2,Commuter
+U1735,Nissan Leaf,40.0,CS432,Workplace,8.56,1.24,6.8,1.89,Night,Monday,57.6,78.5,35.9,13.4,2,Level 2,Commuter
+U1736,Tesla Model S,100.0,CS678,Public,24.47,7.43,3.29,3.06,Morning,Tuesday,58.2,81.1,38.8,36.0,3,Level 1,Casual Driver
+U1737,Tesla Model Y,75.0,CS680,Public,27.15,3.98,6.83,5.58,Afternoon,Saturday,45.4,81.1,33.2,23.1,6,Level 2,Long-Distance Traveler
+U1738,Tesla Model 3,75.0,CS698,Public,53.42,8.11,6.95,8.72,Afternoon,Sunday,34.5,98.7,17.9,-4.5,1,Level 2,Commuter
+U1739,Tesla Model 3,75.0,CS124,Workplace,22.75,0.5,47.53,9.66,Night,Thursday,60.0,90.0,15.9,22.1,3,DC Fast,Casual Driver
+U1740,Tesla Model 3,75.0,CS321,Highway,26.92,0.51,49.75,11.81,Afternoon,Monday,61.0,96.6,60.8,21.9,4,DC Fast,Commuter
+U1741,Kia EV6,77.4,CS390,Highway,48.68,7.36,6.97,8.5,Morning,Sunday,40.2,97.5,83.4,-2.4,3,Level 2,Casual Driver
+U1742,Tesla Model 3,75.0,CS946,Highway,15.22,5.04,3.06,1.55,Afternoon,Sunday,61.0,81.1,104.1,17.3,1,Level 1,Commuter
+U1743,Tesla Model 3,75.0,CS268,Highway,43.57,0.97,45.66,12.9,Morning,Sunday,27.7,84.2,21.4,13.5,1,DC Fast,Commuter
+U1744,Nissan Leaf,40.0,CS590,Highway,17.38,2.73,6.38,3.86,Night,Friday,42.8,84.9,45.4,27.8,2,Level 2,Long-Distance Traveler
+U1745,Tesla Model 3,75.0,CS122,Public,64.84,20.78,3.28,9.77,Night,Saturday,8.0,93.5,16.8,22.8,1,Level 1,Long-Distance Traveler
+U1746,Audi e-tron,95.0,CS418,Public,41.02,0.86,47.67,18.07,Night,Monday,40.7,83.4,29.7,22.8,2,DC Fast,Commuter
+U1747,Chevy Bolt EV,65.0,CS613,Workplace,28.07,4.46,6.62,5.16,Night,Saturday,48.3,90.8,19.4,15.9,1,Level 2,Casual Driver
+U1748,Kia EV6,77.4,CS807,Public,40.28,0.95,44.74,16.57,Evening,Monday,46.2,94.8,7.6,36.5,3,DC Fast,Casual Driver
+U1749,Tesla Model Y,75.0,CS366,Highway,36.06,5.11,6.98,6.35,Afternoon,Friday,32.5,80.0,21.3,23.3,3,Level 2,Long-Distance Traveler
+U1750,Tesla Model S,100.0,CS161,Public,52.33,7.94,6.65,8.98,Evening,Friday,31.4,82.1,51.2,27.9,2,Level 2,Commuter
+U1751,Tesla Model Y,75.0,CS191,Workplace,47.85,17.22,2.94,6.83,Morning,Thursday,33.9,96.1,29.6,13.8,7,Level 1,Long-Distance Traveler
+U1752,Hyundai Ioniq 5,72.6,CS642,Public,22.04,3.08,7.1,5.25,Evening,Sunday,48.2,78.5,20.4,19.6,3,Level 2,Long-Distance Traveler
+U1753,Tesla Model Y,75.0,CS141,Highway,42.9,6.47,6.98,9.18,Evening,Thursday,39.6,95.6,172.2,25.1,4,Level 2,Commuter
+U1754,Tesla Model S,100.0,CS888,Home,67.7,1.53,44.93,27.5,Morning,Wednesday,32.0,98.9,58.5,17.1,6,DC Fast,Casual Driver
+U1755,Audi e-tron,95.0,CS890,Workplace,40.8,0.93,45.36,14.93,Evening,Monday,36.2,78.5,202.0,23.6,3,DC Fast,Casual Driver
+U1756,Tesla Model X,100.0,CS222,Public,62.22,9.69,6.75,13.33,Morning,Monday,34.4,95.9,8.5,17.2,2,Level 2,Commuter
+U1757,Tesla Model 3,75.0,CS617,Highway,53.8,8.4,6.53,9.68,Afternoon,Tuesday,15.5,84.4,7.2,30.0,8,Level 2,Long-Distance Traveler
+U1758,Tesla Model S,100.0,CS226,Workplace,51.58,1.18,45.47,19.09,Evening,Tuesday,29.9,79.9,67.6,12.7,3,DC Fast,Commuter
+U1759,Tesla Model S,100.0,CS945,Highway,81.29,1.7,48.76,23.12,Afternoon,Wednesday,8.0,83.9,26.2,3.3,4,DC Fast,Commuter
+U1760,Audi e-tron,95.0,CS205,Home,42.34,14.54,2.95,4.04,Night,Thursday,41.7,84.2,42.0,8.4,5,Level 1,Commuter
+U1761,Tesla Model Y,75.0,CS389,Highway,48.35,1.12,44.3,16.86,Night,Thursday,21.6,83.5,23.8,9.7,6,DC Fast,Commuter
+U1762,Tesla Model Y,75.0,CS402,Home,48.27,7.65,6.39,8.48,Evening,Sunday,19.0,82.9,49.1,22.0,1,Level 2,Casual Driver
+U1763,Tesla Model S,100.0,CS550,Home,59.04,9.31,6.36,8.87,Evening,Tuesday,26.2,83.5,28.0,27.3,6,Level 2,Long-Distance Traveler
+U1764,Audi e-tron,95.0,CS502,Public,68.66,21.35,3.26,6.64,Morning,Monday,15.8,84.6,20.8,32.2,7,Level 1,Long-Distance Traveler
+U1765,Hyundai Ioniq 5,72.6,CS288,Home,42.79,6.29,6.8,8.42,Night,Sunday,23.9,81.8,28.7,15.6,6,Level 2,Casual Driver
+U1766,Kia EV6,77.4,CS376,Workplace,52.38,1.2,45.29,17.15,Evening,Friday,16.1,82.8,20.1,16.5,3,DC Fast,Commuter
+U1767,Tesla Model X,100.0,CS686,Home,72.55,10.25,7.05,10.38,Evening,Tuesday,14.8,81.0,56.5,42.0,3,Level 2,Commuter
+U1768,Kia EV6,77.4,CS594,Public,43.31,6.31,6.95,6.58,Afternoon,Tuesday,29.0,83.0,25.4,10.9,5,Level 2,Commuter
+U1769,BMW i3,42.2,CS930,Home,14.61,0.28,47.02,5.91,Afternoon,Wednesday,50.1,84.5,10.0,18.4,1,DC Fast,Commuter
+U1770,Nissan Leaf,40.0,CS814,Home,12.76,4.41,3.01,1.4,Night,Sunday,61.3,91.9,17.5,9.5,5,Level 1,Commuter
+U1771,Tesla Model S,100.0,CS909,Home,59.09,8.79,6.82,8.44,Night,Sunday,28.0,83.2,13.4,36.8,6,Level 2,Long-Distance Traveler
+U1772,Tesla Model 3,75.0,CS280,Home,46.45,0.93,47.91,14.7,Evening,Monday,24.0,83.4,40.2,10.0,1,DC Fast,Casual Driver
+U1773,Tesla Model 3,75.0,CS223,Workplace,27.45,8.55,3.23,3.97,Afternoon,Saturday,43.8,79.8,28.3,24.4,3,Level 1,Commuter
+U1774,Hyundai Ioniq 5,72.6,CS896,Workplace,32.79,4.81,6.8,5.06,Night,Thursday,38.2,81.3,58.9,31.4,3,Level 2,Casual Driver
+U1775,Tesla Model S,100.0,CS705,Home,25.56,3.96,6.4,5.92,Evening,Tuesday,56.7,82.2,13.7,20.2,2,Level 2,Commuter
+U1776,Tesla Model Y,75.0,CS478,Home,20.17,0.49,49.1,6.81,Afternoon,Friday,57.6,83.6,65.0,12.2,1,DC Fast,Long-Distance Traveler
+U1777,Tesla Model Y,75.0,CS507,Home,29.63,0.63,49.1,12.3,Night,Sunday,57.1,93.8,21.5,2.0,3,DC Fast,Casual Driver
+U1778,Chevy Bolt EV,65.0,CS267,Public,56.32,8.42,6.95,11.49,Night,Wednesday,9.4,91.3,13.3,6.2,5,Level 2,Commuter
+U1779,Audi e-tron,95.0,CS717,Public,44.55,6.87,6.58,10.26,Evening,Thursday,36.9,83.2,18.4,23.0,4,Level 2,Casual Driver
+U1780,Tesla Model 3,75.0,CS281,Highway,57.07,1.25,47.2,22.38,Night,Monday,19.8,92.3,47.0,31.8,5,DC Fast,Commuter
+U1781,Tesla Model Y,75.0,CS473,Workplace,44.46,14.85,3.21,6.65,Night,Friday,40.2,98.7,24.8,23.2,2,Level 1,Commuter
+U1782,Audi e-tron,95.0,CS827,Highway,53.41,1.25,45.2,18.49,Evening,Saturday,24.1,79.0,15.7,14.1,2,DC Fast,Commuter
+U1783,BMW i3,42.2,CS236,Public,7.85,1.16,6.99,1.72,Evening,Saturday,64.2,82.8,53.6,19.3,4,Level 2,Long-Distance Traveler
+U1784,Tesla Model 3,75.0,CS207,Workplace,6.82,1.06,6.37,1.32,Night,Sunday,71.3,79.9,36.1,5.7,5,Level 2,Long-Distance Traveler
+U1785,Tesla Model 3,75.0,CS175,Public,45.9,7.4,6.47,9.96,Morning,Thursday,33.6,92.4,7.2,29.9,6,Level 2,Commuter
+U1786,Tesla Model S,100.0,CS278,Highway,29.71,4.51,6.58,6.22,Afternoon,Wednesday,51.0,79.7,42.8,12.1,1,Level 2,Commuter
+U1787,Tesla Model 3,75.0,CS239,Workplace,43.14,6.36,7.19,7.42,Night,Saturday,40.7,97.7,117.5,22.4,1,Level 2,Casual Driver
+U1788,Tesla Model Y,75.0,CS536,Highway,40.8,6.17,6.95,9.51,Evening,Wednesday,45.5,98.0,22.1,11.7,1,Level 2,Commuter
+U1789,Tesla Model 3,75.0,CS944,Public,11.09,1.78,6.49,2.31,Night,Sunday,66.5,79.7,37.3,-6.6,2,Level 2,Long-Distance Traveler
+U1790,Tesla Model Y,75.0,CS792,Workplace,29.45,9.75,3.04,2.84,Evening,Wednesday,44.4,81.9,11.9,9.0,5,Level 1,Long-Distance Traveler
+U1791,Tesla Model S,100.0,CS185,Highway,48.12,16.75,2.9,5.71,Evening,Saturday,36.1,83.0,24.0,26.2,2,Level 1,Long-Distance Traveler
+U1792,Tesla Model Y,75.0,CS937,Home,47.3,0.98,47.96,16.8,Morning,Saturday,29.2,91.3,32.6,16.0,4,DC Fast,Commuter
+U1793,Tesla Model 3,75.0,CS323,Public,37.8,0.71,49.23,13.83,Afternoon,Wednesday,34.3,80.2,15.1,-2.4,4,DC Fast,Commuter
+U1794,Kia EV6,77.4,CS202,Home,40.69,5.84,6.95,8.14,Night,Wednesday,29.1,79.2,55.2,8.3,5,Level 2,Commuter
+U1795,Hyundai Ioniq 5,72.6,CS794,Home,44.16,1.06,48.52,12.15,Evening,Wednesday,39.4,98.4,25.4,12.3,7,DC Fast,Commuter
+U1796,Tesla Model X,100.0,CS386,Public,41.96,6.71,6.35,7.6,Evening,Thursday,39.9,80.6,9.6,27.4,3,Level 2,Commuter
+U1797,Tesla Model S,100.0,CS764,Workplace,71.96,23.3,3.13,9.14,Night,Saturday,13.2,84.4,19.1,17.4,4,Level 1,Commuter
+U1798,Tesla Model S,100.0,CS708,Home,87.26,1.7,49.34,25.43,Evening,Monday,8.1,92.0,26.4,10.4,3,DC Fast,Commuter
+U1799,Tesla Model Y,75.0,CS175,Workplace,61.54,9.29,6.96,12.94,Night,Wednesday,11.4,93.4,94.7,19.8,7,Level 2,Long-Distance Traveler
+U1800,Tesla Model 3,75.0,CS408,Public,43.93,7.01,6.34,7.53,Evening,Thursday,22.7,80.5,17.9,23.3,2,Level 2,Long-Distance Traveler
+U1801,Nissan Leaf,40.0,CS190,Workplace,23.37,3.52,6.93,4.33,Morning,Sunday,36.7,92.8,33.6,10.3,1,Level 2,Commuter
+U1802,Tesla Model X,100.0,CS527,Home,61.26,20.2,3.03,8.01,Night,Thursday,18.8,78.8,29.9,15.1,4,Level 1,Commuter
+U1803,Tesla Model X,100.0,CS762,Public,59.71,8.88,6.79,10.77,Afternoon,Friday,24.6,82.5,64.3,27.9,2,Level 2,Commuter
+U1804,BMW i3,42.2,CS680,Workplace,16.72,2.46,7.08,2.95,Afternoon,Saturday,41.5,79.8,81.5,28.6,7,Level 2,Long-Distance Traveler
+U1805,Chevy Bolt EV,65.0,CS433,Public,57.81,1.26,44.15,22.29,Night,Friday,14.3,94.0,79.0,-6.2,2,DC Fast,Casual Driver
+U1806,Kia EV6,77.4,CS577,Public,38.87,6.43,6.35,5.65,Evening,Saturday,46.9,94.8,27.6,8.3,2,Level 2,Commuter
+U1807,Tesla Model X,100.0,CS953,Public,31.33,0.63,48.95,11.79,Afternoon,Saturday,55.3,83.3,99.1,-6.8,2,DC Fast,Commuter
+U1808,Audi e-tron,95.0,CS784,Public,69.11,1.48,48.14,22.17,Afternoon,Tuesday,23.9,93.1,43.8,32.2,7,DC Fast,Commuter
+U1809,Chevy Bolt EV,65.0,CS389,Workplace,34.06,5.22,6.58,8.06,Night,Friday,33.6,84.5,19.2,12.9,4,Level 2,Long-Distance Traveler
+U1810,Tesla Model X,100.0,CS277,Workplace,62.3,9.16,6.81,13.72,Night,Monday,20.0,81.0,28.7,25.2,3,Level 2,Commuter
+U1811,Nissan Leaf,40.0,CS302,Home,25.54,8.57,2.98,3.03,Morning,Thursday,17.9,79.2,21.5,9.9,1,Level 1,Commuter
+U1812,Tesla Model S,100.0,CS663,Highway,24.83,3.85,6.56,5.91,Night,Wednesday,59.9,84.4,48.6,22.6,2,Level 2,Commuter
+U1813,Audi e-tron,95.0,CS436,Highway,41.59,0.95,48.02,17.25,Evening,Friday,40.7,81.8,21.4,4.6,1,DC Fast,Casual Driver
+U1814,Tesla Model 3,75.0,CS981,Highway,35.85,11.42,3.18,3.97,Afternoon,Friday,36.4,81.6,58.3,6.7,3,Level 1,Commuter
+U1815,Tesla Model 3,75.0,CS369,Home,45.37,6.31,7.19,10.2,Night,Wednesday,23.3,81.3,181.0,30.0,6,Level 2,Casual Driver
+U1816,Tesla Model 3,75.0,CS767,Workplace,53.71,1.17,45.99,15.45,Night,Thursday,8.0,78.9,59.5,17.4,3,DC Fast,Long-Distance Traveler
+U1817,Tesla Model X,100.0,CS433,Highway,43.43,6.79,6.34,8.96,Evening,Tuesday,37.6,79.6,13.0,28.2,2,Level 2,Long-Distance Traveler
+U1818,Chevy Bolt EV,65.0,CS753,Highway,12.09,1.79,6.8,2.66,Afternoon,Monday,61.9,80.2,12.1,23.6,6,Level 2,Long-Distance Traveler
+U1819,Tesla Model Y,75.0,CS176,Public,47.12,7.19,6.85,7.31,Evening,Wednesday,30.7,90.7,204.8,8.6,4,Level 2,Long-Distance Traveler
+U1820,Tesla Model Y,75.0,CS743,Public,38.57,0.8,46.84,12.87,Night,Thursday,43.5,91.4,82.4,2.8,7,DC Fast,Commuter
+U1821,Tesla Model 3,75.0,CS602,Workplace,66.25,1.48,47.52,27.85,Afternoon,Saturday,8.0,90.7,57.4,4.1,3,DC Fast,Long-Distance Traveler
+U1822,Tesla Model Y,75.0,CS691,Workplace,38.38,12.53,3.24,4.57,Evening,Sunday,44.1,94.7,11.3,22.8,1,Level 1,Commuter
+U1823,Tesla Model 3,75.0,CS948,Workplace,38.69,6.03,6.52,8.44,Morning,Wednesday,34.7,84.6,23.9,12.0,8,Level 2,Commuter
+U1824,Tesla Model 3,75.0,CS429,Home,51.14,1.03,47.03,20.45,Afternoon,Thursday,15.6,81.4,12.3,28.9,1,DC Fast,Commuter
+U1825,Hyundai Ioniq 5,72.6,CS870,Home,46.98,7.42,6.69,11.23,Evening,Monday,36.5,99.2,11.4,27.7,1,Level 2,Long-Distance Traveler
+U1826,Tesla Model 3,75.0,CS720,Public,51.09,7.67,6.72,11.72,Morning,Wednesday,10.7,78.7,11.8,20.2,8,Level 2,Long-Distance Traveler
+U1827,Audi e-tron,95.0,CS462,Workplace,72.27,1.58,45.71,24.96,Morning,Wednesday,8.5,83.0,25.7,14.9,1,DC Fast,Commuter
+U1828,BMW i3,42.2,CS602,Public,25.27,4.01,6.46,4.3,Evening,Thursday,26.9,84.5,38.7,29.5,5,Level 2,Casual Driver
+U1829,Tesla Model 3,75.0,CS449,Home,70.16,10.84,6.78,11.45,Night,Thursday,8.0,94.7,16.6,38.4,6,Level 2,Commuter
+U1830,Nissan Leaf,40.0,CS855,Highway,17.29,0.49,46.4,4.97,Evening,Tuesday,39.9,82.1,39.4,25.8,3,DC Fast,Commuter
+U1831,Tesla Model 3,75.0,CS985,Highway,21.44,6.87,3.13,2.48,Night,Thursday,51.4,79.2,37.2,12.6,4,Level 1,Commuter
+U1832,Chevy Bolt EV,65.0,CS933,Highway,37.67,5.62,7.11,7.06,Evening,Wednesday,39.8,97.2,8.7,22.3,4,Level 2,Commuter
+U1833,Nissan Leaf,40.0,CS127,Public,7.67,1.21,6.37,1.57,Morning,Friday,64.8,83.2,39.8,9.5,4,Level 2,Casual Driver
+U1834,BMW i3,42.2,CS546,Highway,25.19,3.86,6.8,4.59,Night,Thursday,36.0,92.0,21.7,4.5,2,Level 2,Commuter
+U1835,Tesla Model Y,75.0,CS930,Home,27.01,0.57,49.88,7.12,Night,Monday,66.0,98.8,44.5,42.0,3,DC Fast,Commuter
+U1836,Hyundai Ioniq 5,72.6,CS853,Workplace,13.98,4.32,3.29,1.77,Afternoon,Saturday,61.4,79.9,44.7,10.8,7,Level 1,Casual Driver
+U1837,Tesla Model 3,75.0,CS789,Public,25.51,3.8,6.8,3.74,Night,Thursday,47.1,79.6,25.7,9.5,2,Level 2,Long-Distance Traveler
+U1838,Tesla Model S,100.0,CS806,Workplace,75.85,10.99,6.87,11.43,Afternoon,Sunday,9.6,78.0,57.8,-4.5,1,Level 2,Commuter
+U1839,Chevy Bolt EV,65.0,CS274,Home,44.81,6.67,6.76,8.75,Evening,Wednesday,16.4,83.5,143.6,13.3,3,Level 2,Commuter
+U1840,Tesla Model X,100.0,CS758,Workplace,27.89,4.37,6.5,6.74,Night,Saturday,56.3,83.9,114.0,22.8,4,Level 2,Commuter
+U1841,Tesla Model 3,75.0,CS567,Workplace,23.27,3.46,6.71,4.53,Evening,Thursday,48.9,79.7,24.8,21.2,2,Level 2,Commuter
+U1842,Tesla Model 3,75.0,CS188,Workplace,36.51,5.67,6.35,7.49,Afternoon,Tuesday,39.9,83.5,69.6,-6.1,1,Level 2,Long-Distance Traveler
+U1843,BMW i3,42.2,CS848,Public,13.3,1.83,7.19,2.96,Night,Wednesday,49.3,80.4,14.0,16.6,4,Level 2,Casual Driver
+U1844,Tesla Model Y,75.0,CS116,Home,43.86,6.21,7.03,7.97,Evening,Monday,20.1,78.3,28.8,19.0,6,Level 2,Long-Distance Traveler
+U1845,Audi e-tron,95.0,CS390,Home,85.63,13.41,6.7,14.29,Night,Sunday,8.0,94.5,36.6,9.9,1,Level 2,Commuter
+U1846,Chevy Bolt EV,65.0,CS283,Workplace,43.54,6.82,6.38,7.46,Afternoon,Wednesday,18.2,81.1,36.1,4.9,4,Level 2,Casual Driver
+U1847,Tesla Model X,100.0,CS202,Home,74.44,11.35,6.99,15.26,Evening,Sunday,30.1,99.7,22.7,36.4,3,Level 2,Commuter
+U1848,Tesla Model X,100.0,CS531,Workplace,58.01,9.46,6.51,10.08,Evening,Wednesday,40.5,97.7,11.7,23.2,2,Level 2,Commuter
+U1849,Tesla Model Y,75.0,CS859,Home,45.81,14.37,3.23,5.11,Evening,Saturday,22.1,83.1,17.1,19.9,3,Level 1,Commuter
+U1850,Audi e-tron,95.0,CS356,Home,58.71,1.39,44.27,15.66,Afternoon,Monday,36.1,94.3,29.4,34.5,1,DC Fast,Commuter
+U1851,Chevy Bolt EV,65.0,CS221,Workplace,46.5,7.46,6.53,8.22,Evening,Wednesday,27.0,97.1,42.5,15.0,1,Level 2,Commuter
+U1852,Tesla Model 3,75.0,CS296,Workplace,39.33,0.79,47.58,16.31,Afternoon,Sunday,27.7,78.0,13.1,9.9,2,DC Fast,Long-Distance Traveler
+U1853,Nissan Leaf,40.0,CS361,Public,20.25,0.51,47.2,8.54,Evening,Wednesday,32.3,80.9,12.8,30.3,1,DC Fast,Commuter
+U1854,Hyundai Ioniq 5,72.6,CS733,Home,25.61,3.79,6.82,4.43,Morning,Saturday,47.9,83.1,31.0,20.9,1,Level 2,Commuter
+U1855,Chevy Bolt EV,65.0,CS516,Public,45.86,7.05,6.5,9.92,Evening,Tuesday,17.4,80.4,24.9,-6.8,4,Level 2,Commuter
+U1856,Tesla Model 3,75.0,CS721,Public,30.68,4.48,6.92,5.14,Night,Wednesday,39.2,78.4,33.8,9.6,3,Level 2,Casual Driver
+U1857,Tesla Model Y,75.0,CS192,Highway,55.89,18.09,3.14,8.23,Night,Monday,11.0,84.6,110.4,16.9,1,Level 1,Long-Distance Traveler
+U1858,Tesla Model 3,75.0,CS116,Workplace,23.65,3.57,6.61,5.39,Evening,Friday,50.6,80.6,45.2,7.2,3,Level 2,Commuter
+U1859,Tesla Model X,100.0,CS283,Highway,54.41,8.16,6.65,8.94,Night,Thursday,27.8,79.7,246.6,8.1,6,Level 2,Long-Distance Traveler
+U1860,Hyundai Ioniq 5,72.6,CS170,Home,29.52,4.64,6.42,5.77,Afternoon,Tuesday,42.2,81.5,26.0,12.0,3,Level 2,Casual Driver
+U1861,Hyundai Ioniq 5,72.6,CS647,Workplace,42.45,5.86,7.18,9.54,Night,Saturday,23.0,80.0,64.5,26.0,7,Level 2,Casual Driver
+U1862,Tesla Model S,100.0,CS390,Home,50.08,17.16,2.95,6.97,Morning,Wednesday,35.9,83.6,25.4,8.3,5,Level 1,Commuter
+U1863,Tesla Model S,100.0,CS917,Highway,61.84,9.21,6.78,10.68,Morning,Thursday,27.2,81.3,62.0,-11.4,4,Level 2,Commuter
+U1864,Nissan Leaf,40.0,CS668,Workplace,15.67,5.07,3.13,1.92,Night,Thursday,48.2,84.0,24.3,-1.5,3,Level 1,Commuter
+U1865,Kia EV6,77.4,CS879,Highway,31.01,0.66,45.06,10.7,Night,Friday,43.4,80.1,61.8,41.0,2,DC Fast,Commuter
+U1866,Tesla Model 3,75.0,CS277,Home,31.29,4.59,6.74,5.63,Night,Tuesday,39.6,80.4,51.7,14.8,5,Level 2,Casual Driver
+U1867,Tesla Model S,100.0,CS435,Workplace,78.18,11.89,6.98,10.82,Night,Wednesday,25.1,96.9,38.2,-0.3,1,Level 2,Commuter
+U1868,Audi e-tron,95.0,CS492,Workplace,32.21,4.63,6.98,7.19,Morning,Monday,50.7,82.5,33.6,35.3,7,Level 2,Commuter
+U1869,Tesla Model Y,75.0,CS166,Highway,57.13,1.25,46.65,19.1,Night,Friday,26.4,98.4,36.9,6.2,5,DC Fast,Long-Distance Traveler
+U1870,Audi e-tron,95.0,CS185,Home,58.95,1.25,47.06,20.6,Afternoon,Wednesday,34.4,93.9,50.9,9.7,2,DC Fast,Long-Distance Traveler
+U1871,Tesla Model 3,75.0,CS211,Home,30.55,4.38,6.91,4.19,Afternoon,Monday,41.3,78.5,7.9,41.8,2,Level 2,Long-Distance Traveler
+U1872,Tesla Model Y,75.0,CS145,Public,30.22,0.62,46.12,9.6,Night,Tuesday,42.1,81.5,122.8,14.6,2,DC Fast,Commuter
+U1873,Tesla Model S,100.0,CS508,Public,39.36,5.83,6.71,8.61,Morning,Wednesday,40.4,78.2,53.0,29.7,6,Level 2,Long-Distance Traveler
+U1874,Tesla Model S,100.0,CS716,Highway,56.15,8.29,6.88,12.56,Morning,Saturday,27.6,83.4,9.4,18.4,2,Level 2,Casual Driver
+U1875,Tesla Model Y,75.0,CS978,Highway,30.83,4.81,6.63,7.37,Afternoon,Wednesday,53.5,93.9,23.7,24.4,3,Level 2,Casual Driver
+U1876,Tesla Model Y,75.0,CS492,Public,43.26,6.88,6.64,10.03,Evening,Thursday,39.7,95.5,22.0,11.8,5,Level 2,Commuter
+U1877,Tesla Model X,100.0,CS613,Workplace,43.59,6.53,6.68,9.1,Morning,Wednesday,38.4,81.2,18.0,15.1,4,Level 2,Casual Driver
+U1878,Hyundai Ioniq 5,72.6,CS410,Home,47.91,7.95,6.47,9.67,Evening,Friday,35.1,99.5,54.1,14.1,7,Level 2,Casual Driver
+U1879,Chevy Bolt EV,65.0,CS105,Workplace,41.17,0.88,47.08,14.01,Night,Saturday,28.8,92.1,53.7,19.6,2,DC Fast,Commuter
+U1880,Chevy Bolt EV,65.0,CS269,Highway,45.38,1.02,44.64,14.93,Night,Thursday,12.8,78.8,71.8,6.7,8,DC Fast,Commuter
+U1881,Tesla Model S,100.0,CS777,Workplace,33.91,0.75,44.08,11.59,Morning,Tuesday,53.2,83.1,37.7,-9.5,3,DC Fast,Long-Distance Traveler
+U1882,Tesla Model Y,75.0,CS107,Highway,56.47,17.62,3.2,6.15,Night,Friday,8.0,79.4,14.9,7.1,6,Level 1,Commuter
+U1883,Chevy Bolt EV,65.0,CS425,Workplace,47.19,6.86,6.85,8.86,Afternoon,Sunday,11.4,79.2,48.4,3.4,1,Level 2,Commuter
+U1884,BMW i3,42.2,CS949,Home,24.04,3.99,6.34,3.81,Morning,Tuesday,37.8,94.5,43.6,19.2,5,Level 2,Commuter
+U1885,Tesla Model X,100.0,CS798,Public,72.23,1.65,47.16,25.99,Afternoon,Sunday,28.4,98.3,25.6,28.0,4,DC Fast,Casual Driver
+U1886,Chevy Bolt EV,65.0,CS236,Workplace,17.42,2.71,6.38,3.14,Morning,Tuesday,55.8,81.6,23.0,10.3,3,Level 2,Long-Distance Traveler
+U1887,Chevy Bolt EV,65.0,CS410,Highway,32.56,4.55,7.15,5.57,Evening,Sunday,28.4,78.5,5.0,19.6,8,Level 2,Commuter
+U1888,Tesla Model 3,75.0,CS423,Public,36.63,5.27,7.04,6.23,Evening,Tuesday,30.0,78.2,5.0,23.3,3,Level 2,Long-Distance Traveler
+U1889,Audi e-tron,95.0,CS454,Workplace,54.06,1.12,46.74,16.8,Afternoon,Thursday,22.3,79.1,38.6,20.2,3,DC Fast,Commuter
+U1890,Tesla Model Y,75.0,CS264,Home,59.89,1.18,48.86,19.53,Evening,Friday,11.9,83.6,40.4,-5.7,1,DC Fast,Commuter
+U1891,Tesla Model Y,75.0,CS435,Highway,31.02,0.69,46.44,12.95,Night,Wednesday,45.0,84.9,31.0,29.1,1,DC Fast,Long-Distance Traveler
+U1892,Tesla Model Y,75.0,CS239,Highway,34.46,5.24,6.62,5.62,Night,Monday,37.5,82.4,46.7,14.4,2,Level 2,Casual Driver
+U1893,Tesla Model Y,75.0,CS785,Highway,37.15,5.19,7.11,5.64,Evening,Sunday,30.5,79.4,247.6,16.5,4,Level 2,Casual Driver
+U1894,Nissan Leaf,40.0,CS293,Public,29.49,0.76,45.85,7.89,Evening,Monday,22.1,92.3,18.9,8.1,5,DC Fast,Casual Driver
+U1895,Tesla Model Y,75.0,CS148,Home,45.99,0.97,49.71,12.34,Afternoon,Saturday,27.6,85.0,87.6,4.1,5,DC Fast,Long-Distance Traveler
+U1896,Audi e-tron,95.0,CS697,Highway,38.54,5.9,6.6,5.47,Night,Wednesday,43.5,81.1,20.1,38.4,2,Level 2,Commuter
+U1897,Nissan Leaf,40.0,CS752,Public,24.4,0.61,46.21,8.35,Morning,Thursday,35.1,95.6,99.9,18.1,1,DC Fast,Commuter
+U1898,Tesla Model X,100.0,CS282,Workplace,45.15,6.93,6.59,10.43,Night,Saturday,39.4,82.6,54.7,9.2,1,Level 2,Casual Driver
+U1899,Tesla Model X,100.0,CS137,Public,67.06,11.09,6.47,15.63,Night,Wednesday,35.8,99.4,20.6,32.9,4,Level 2,Long-Distance Traveler
+U1900,BMW i3,42.2,CS834,Public,33.21,0.73,48.17,13.09,Afternoon,Saturday,16.5,90.7,32.5,6.0,1,DC Fast,Long-Distance Traveler
+U1901,Tesla Model X,100.0,CS770,Workplace,46.18,1.0,47.44,12.84,Morning,Saturday,38.8,80.0,38.9,-6.8,2,DC Fast,Casual Driver
+U1902,Tesla Model 3,75.0,CS339,Public,46.05,6.85,7.16,8.14,Evening,Sunday,35.3,96.3,25.4,21.5,3,Level 2,Commuter
+U1903,Tesla Model 3,75.0,CS282,Highway,33.62,11.45,2.96,3.34,Night,Monday,39.5,83.7,14.4,23.6,6,Level 1,Casual Driver
+U1904,Audi e-tron,95.0,CS174,Highway,50.84,1.2,45.55,20.99,Evening,Friday,42.7,95.8,18.2,18.1,2,DC Fast,Casual Driver
+U1905,Hyundai Ioniq 5,72.6,CS223,Public,44.74,1.02,45.29,17.31,Afternoon,Sunday,27.1,83.5,34.9,-1.3,2,DC Fast,Long-Distance Traveler
+U1906,Tesla Model 3,75.0,CS374,Highway,34.44,5.14,6.84,8.02,Morning,Friday,38.8,83.0,71.7,11.1,1,Level 2,Commuter
+U1907,Tesla Model S,100.0,CS990,Workplace,50.49,17.21,2.93,4.99,Night,Tuesday,30.2,79.5,49.5,25.9,5,Level 1,Commuter
+U1908,Tesla Model 3,75.0,CS952,Workplace,28.68,4.31,6.53,6.86,Evening,Tuesday,41.7,78.3,53.5,30.5,1,Level 2,Casual Driver
+U1909,Tesla Model 3,75.0,CS874,Highway,46.16,7.41,6.54,7.19,Evening,Friday,35.4,93.3,46.8,5.5,3,Level 2,Commuter
+U1910,Audi e-tron,95.0,CS579,Highway,20.88,3.34,6.37,3.33,Night,Monday,57.5,78.5,7.1,8.9,6,Level 2,Commuter
+U1911,Tesla Model 3,75.0,CS247,Highway,47.77,6.97,6.79,7.6,Evening,Friday,18.0,80.2,60.3,25.9,5,Level 2,Commuter
+U1912,Kia EV6,77.4,CS525,Workplace,23.55,0.43,48.38,6.83,Evening,Monday,49.3,78.6,13.7,11.3,3,DC Fast,Casual Driver
+U1913,Tesla Model 3,75.0,CS713,Public,58.28,8.41,7.2,10.86,Morning,Monday,22.2,93.8,93.0,39.9,5,Level 2,Casual Driver
+U1914,Audi e-tron,95.0,CS825,Workplace,38.69,0.83,47.57,14.56,Afternoon,Saturday,38.8,79.4,12.3,20.8,4,DC Fast,Commuter
+U1915,Tesla Model Y,75.0,CS705,Public,51.56,1.23,45.56,17.15,Evening,Monday,30.0,98.3,17.3,18.3,5,DC Fast,Casual Driver
+U1916,Tesla Model X,100.0,CS604,Highway,87.94,1.98,46.07,27.55,Night,Saturday,8.0,95.2,80.5,17.8,3,DC Fast,Commuter
+U1917,Tesla Model X,100.0,CS199,Public,46.44,14.88,3.14,5.32,Evening,Tuesday,35.2,78.6,6.0,3.8,6,Level 1,Commuter
+U1918,Chevy Bolt EV,65.0,CS829,Highway,34.24,12.08,3.02,4.42,Night,Wednesday,44.2,96.4,13.7,22.4,6,Level 1,Commuter
+U1919,Tesla Model S,100.0,CS913,Workplace,47.05,1.01,49.17,14.77,Evening,Wednesday,37.5,79.7,9.0,-5.5,2,DC Fast,Commuter
+U1920,Nissan Leaf,40.0,CS337,Highway,11.7,0.33,44.16,4.72,Evening,Wednesday,51.6,78.8,61.2,2.3,1,DC Fast,Casual Driver
+U1921,Tesla Model Y,75.0,CS481,Home,71.81,1.6,47.73,29.64,Night,Wednesday,9.3,98.8,9.0,3.7,3,DC Fast,Commuter
+U1922,Tesla Model Y,75.0,CS698,Public,36.56,5.37,7.04,7.84,Night,Saturday,43.3,90.9,130.0,26.1,3,Level 2,Long-Distance Traveler
+U1923,Hyundai Ioniq 5,72.6,CS870,Highway,24.62,0.54,44.18,8.26,Night,Tuesday,65.1,98.9,9.1,21.1,1,DC Fast,Long-Distance Traveler
+U1924,Tesla Model Y,75.0,CS913,Workplace,47.34,7.19,6.57,8.48,Morning,Saturday,20.8,79.3,20.2,1.4,3,Level 2,Commuter
+U1925,BMW i3,42.2,CS482,Home,31.95,5.11,6.63,4.66,Evening,Tuesday,22.8,91.8,16.9,-1.9,3,Level 2,Commuter
+U1926,Chevy Bolt EV,65.0,CS179,Home,26.74,4.22,6.43,5.19,Afternoon,Tuesday,39.3,79.8,94.5,24.4,2,Level 2,Commuter
+U1927,Tesla Model 3,75.0,CS269,Highway,25.0,0.6,46.08,10.03,Afternoon,Sunday,46.9,78.4,28.8,6.5,8,DC Fast,Commuter
+U1928,Chevy Bolt EV,65.0,CS592,Home,34.59,0.83,45.25,12.68,Night,Thursday,31.1,81.1,10.2,4.8,7,DC Fast,Casual Driver
+U1929,Tesla Model 3,75.0,CS225,Home,53.65,7.91,7.18,12.35,Evening,Wednesday,25.2,93.4,36.9,8.4,8,Level 2,Commuter
+U1930,Hyundai Ioniq 5,72.6,CS644,Workplace,58.76,17.99,3.26,7.85,Night,Tuesday,8.0,78.6,17.4,-11.9,4,Level 1,Commuter
+U1931,Tesla Model 3,75.0,CS166,Workplace,30.79,4.62,6.65,5.04,Afternoon,Wednesday,38.2,78.4,28.4,25.3,2,Level 2,Commuter
+U1932,Tesla Model S,100.0,CS493,Home,41.87,0.82,46.72,13.97,Night,Friday,41.1,80.0,13.6,2.3,2,DC Fast,Casual Driver
+U1933,Tesla Model 3,75.0,CS572,Public,27.3,0.55,45.06,10.29,Afternoon,Tuesday,47.0,83.3,160.5,21.1,2,DC Fast,Commuter
+U1934,Tesla Model Y,75.0,CS968,Home,46.42,7.04,6.66,7.12,Afternoon,Friday,21.7,82.3,5.9,14.7,5,Level 2,Casual Driver
+U1935,BMW i3,42.2,CS963,Highway,16.84,0.44,44.47,5.14,Evening,Sunday,42.0,81.1,32.9,25.1,3,DC Fast,Commuter
+U1936,Tesla Model S,100.0,CS669,Highway,59.99,9.49,6.35,13.67,Evening,Thursday,21.5,81.4,13.8,20.7,5,Level 2,Commuter
+U1937,Tesla Model 3,75.0,CS244,Home,49.76,17.24,3.02,5.75,Morning,Friday,27.5,93.4,15.1,21.4,2,Level 1,Long-Distance Traveler
+U1938,Tesla Model S,100.0,CS210,Public,58.82,8.28,7.09,8.65,Night,Saturday,22.0,79.6,25.2,14.8,3,Level 2,Long-Distance Traveler
+U1939,BMW i3,42.2,CS252,Highway,33.13,5.2,6.72,4.85,Night,Thursday,18.6,94.7,28.3,27.6,2,Level 2,Commuter
+U1940,Tesla Model 3,75.0,CS748,Home,27.85,0.61,46.9,11.36,Afternoon,Monday,44.4,81.1,37.4,17.5,6,DC Fast,Commuter
+U1941,Tesla Model S,100.0,CS550,Highway,49.74,1.1,45.77,21.48,Afternoon,Wednesday,31.0,80.2,8.1,17.1,1,DC Fast,Commuter
+U1942,Tesla Model 3,75.0,CS708,Public,31.9,4.86,6.52,6.82,Night,Thursday,39.6,80.9,36.3,13.1,2,Level 2,Commuter
+U1943,Chevy Bolt EV,65.0,CS421,Workplace,40.89,1.01,47.84,17.48,Night,Tuesday,29.5,90.3,9.2,28.1,7,DC Fast,Commuter
+U1944,Tesla Model X,100.0,CS673,Workplace,64.31,20.78,3.11,8.24,Night,Wednesday,20.0,80.6,47.3,5.3,2,Level 1,Commuter
+U1945,Tesla Model S,100.0,CS563,Workplace,29.79,4.36,6.89,5.49,Night,Saturday,50.0,78.8,58.1,12.2,2,Level 2,Commuter
+U1946,Chevy Bolt EV,65.0,CS160,Public,42.39,6.42,6.61,7.33,Night,Saturday,18.2,79.7,86.4,34.3,3,Level 2,Commuter
+U1947,Tesla Model S,100.0,CS202,Highway,53.67,1.1,49.91,19.92,Morning,Saturday,27.0,80.6,115.7,20.3,1,DC Fast,Commuter
+U1948,Chevy Bolt EV,65.0,CS168,Home,47.63,7.22,6.62,8.15,Evening,Thursday,10.8,78.3,24.2,0.4,2,Level 2,Casual Driver
+U1949,BMW i3,42.2,CS730,Workplace,33.89,5.31,6.71,8.15,Evening,Sunday,18.5,97.9,57.3,17.2,3,Level 2,Commuter
+U1950,Tesla Model 3,75.0,CS870,Workplace,36.26,0.71,47.5,12.07,Night,Thursday,32.7,78.6,13.5,32.6,2,DC Fast,Long-Distance Traveler
+U1951,Kia EV6,77.4,CS203,Public,24.0,3.73,6.71,4.05,Evening,Tuesday,60.1,91.1,75.6,20.0,1,Level 2,Commuter
+U1952,Tesla Model 3,75.0,CS824,Highway,31.86,0.61,46.54,10.55,Afternoon,Sunday,39.1,81.5,8.6,20.5,5,DC Fast,Commuter
+U1953,Tesla Model S,100.0,CS128,Public,33.61,5.07,6.64,8.06,Morning,Friday,50.0,82.9,55.1,15.2,2,Level 2,Commuter
+U1954,Tesla Model 3,75.0,CS488,Home,35.56,5.52,6.51,5.42,Afternoon,Thursday,37.9,83.6,53.5,29.0,5,Level 2,Commuter
+U1955,Tesla Model X,100.0,CS439,Highway,35.1,10.94,3.27,3.89,Evening,Sunday,49.8,84.3,18.0,15.5,1,Level 1,Commuter
+U1956,Tesla Model Y,75.0,CS569,Home,56.32,1.2,46.51,17.55,Morning,Saturday,8.0,78.9,67.8,5.9,1,DC Fast,Long-Distance Traveler
+U1957,Tesla Model Y,75.0,CS919,Public,66.13,23.12,3.03,7.73,Morning,Sunday,10.8,98.0,71.5,17.4,5,Level 1,Commuter
+U1958,Audi e-tron,95.0,CS593,Public,47.44,6.65,7.06,7.46,Afternoon,Friday,29.7,78.4,26.9,26.2,3,Level 2,Casual Driver
+U1959,Audi e-tron,95.0,CS775,Public,67.75,10.0,7.12,12.61,Afternoon,Friday,22.4,93.6,25.3,20.6,1,Level 2,Commuter
+U1960,Tesla Model S,100.0,CS456,Highway,52.58,1.11,46.34,21.61,Night,Monday,36.2,84.9,12.0,1.4,8,DC Fast,Commuter
+U1961,Nissan Leaf,40.0,CS739,Public,25.42,3.64,6.82,5.11,Afternoon,Monday,19.8,79.9,12.4,33.6,5,Level 2,Casual Driver
+U1962,Tesla Model 3,75.0,CS468,Highway,42.04,0.88,47.44,12.54,Afternoon,Thursday,27.1,81.3,10.2,11.6,2,DC Fast,Commuter
+U1963,Tesla Model Y,75.0,CS337,Workplace,46.51,7.2,6.63,8.46,Night,Tuesday,28.5,90.4,36.9,20.4,2,Level 2,Commuter
+U1964,Tesla Model S,100.0,CS499,Home,65.54,1.35,47.55,24.14,Evening,Sunday,17.6,80.6,29.1,29.8,4,DC Fast,Long-Distance Traveler
+U1965,Tesla Model S,100.0,CS800,Workplace,80.21,1.82,44.71,22.18,Night,Thursday,21.8,91.7,132.0,-12.0,2,DC Fast,Commuter
+U1966,Tesla Model Y,75.0,CS145,Highway,55.49,1.2,49.94,18.59,Night,Thursday,30.1,97.0,37.8,-4.0,1,DC Fast,Long-Distance Traveler
+U1967,Chevy Bolt EV,65.0,CS941,Highway,49.45,16.85,3.1,6.97,Afternoon,Tuesday,23.4,95.6,11.6,7.3,3,Level 1,Commuter
+U1968,Tesla Model 3,75.0,CS780,Workplace,32.61,0.59,49.98,13.14,Night,Friday,40.1,82.7,13.3,14.9,4,DC Fast,Commuter
+U1969,Audi e-tron,95.0,CS393,Home,40.98,12.4,3.28,3.94,Morning,Friday,39.9,79.2,23.3,42.0,7,Level 1,Long-Distance Traveler
+U1970,Chevy Bolt EV,65.0,CS163,Home,22.99,7.28,3.17,2.26,Evening,Monday,46.6,80.2,44.6,7.7,3,Level 1,Long-Distance Traveler
+U1971,Tesla Model 3,75.0,CS607,Public,35.31,0.82,48.17,9.6,Morning,Monday,47.2,92.6,11.6,11.2,4,DC Fast,Commuter
+U1972,Hyundai Ioniq 5,72.6,CS129,Public,33.72,4.9,7.01,6.61,Evening,Thursday,34.4,79.5,26.0,12.8,4,Level 2,Commuter
+U1973,Tesla Model Y,75.0,CS601,Highway,40.48,6.26,6.87,6.92,Evening,Friday,44.6,98.0,12.1,17.7,2,Level 2,Commuter
+U1974,Kia EV6,77.4,CS143,Home,32.12,4.69,7.05,6.0,Evening,Thursday,43.6,81.8,12.3,0.3,4,Level 2,Casual Driver
+U1975,Tesla Model 3,75.0,CS907,Highway,44.95,15.07,3.0,4.84,Evening,Tuesday,27.5,82.4,49.2,-1.1,5,Level 1,Long-Distance Traveler
+U1976,Tesla Model Y,75.0,CS698,Public,30.63,0.55,49.93,9.55,Evening,Sunday,38.2,78.2,17.0,24.8,2,DC Fast,Long-Distance Traveler
+U1977,Tesla Model S,100.0,CS541,Public,85.76,13.82,6.43,13.66,Evening,Monday,8.0,90.6,16.3,10.9,4,Level 2,Commuter
+U1978,Tesla Model S,100.0,CS859,Public,77.05,10.91,7.15,12.28,Evening,Thursday,8.0,81.9,43.3,9.9,7,Level 2,Casual Driver
+U1979,Tesla Model Y,75.0,CS461,Workplace,40.11,13.4,3.01,5.63,Afternoon,Friday,30.9,81.7,8.5,32.5,5,Level 1,Commuter
+U1980,Hyundai Ioniq 5,72.6,CS595,Public,27.69,4.41,6.63,4.79,Evening,Tuesday,56.9,92.3,7.6,2.1,4,Level 2,Commuter
+U1981,BMW i3,42.2,CS283,Workplace,31.24,4.71,6.97,4.47,Evening,Thursday,25.0,93.2,13.3,0.4,2,Level 2,Commuter
+U1982,Chevy Bolt EV,65.0,CS281,Workplace,23.81,3.71,6.35,3.94,Evening,Saturday,46.1,81.6,34.0,12.7,1,Level 2,Casual Driver
+U1983,Tesla Model Y,75.0,CS277,Highway,35.0,0.76,47.09,14.86,Afternoon,Monday,38.3,85.0,17.3,19.9,1,DC Fast,Casual Driver
+U1984,Hyundai Ioniq 5,72.6,CS768,Home,47.38,6.57,7.18,9.59,Evening,Monday,22.3,80.6,132.0,-6.8,3,Level 2,Commuter
+U1985,Tesla Model Y,75.0,CS947,Highway,41.35,6.59,6.66,6.36,Morning,Friday,41.8,95.9,43.1,24.7,8,Level 2,Long-Distance Traveler
+U1986,Audi e-tron,95.0,CS217,Public,53.27,7.94,6.71,8.49,Evening,Monday,24.9,80.1,26.1,16.4,8,Level 2,Casual Driver
+U1987,Audi e-tron,95.0,CS933,Public,69.79,1.52,48.4,22.62,Evening,Tuesday,21.9,93.4,31.5,26.7,6,DC Fast,Long-Distance Traveler
+U1988,Tesla Model 3,75.0,CS447,Workplace,38.85,13.04,3.16,4.26,Afternoon,Tuesday,45.2,96.6,40.6,22.2,2,Level 1,Casual Driver
+U1989,Chevy Bolt EV,65.0,CS316,Highway,16.94,0.4,46.95,4.81,Evening,Sunday,58.8,84.0,37.6,28.7,7,DC Fast,Commuter
+U1990,Tesla Model 3,75.0,CS384,Home,54.19,7.86,6.92,9.98,Evening,Wednesday,9.4,78.6,46.0,9.5,2,Level 2,Commuter
+U1991,Tesla Model S,100.0,CS684,Highway,49.2,7.4,6.66,8.54,Evening,Sunday,32.2,79.3,19.3,9.3,2,Level 2,Casual Driver
+U1992,Tesla Model S,100.0,CS546,Home,68.84,10.75,6.84,11.82,Afternoon,Monday,31.5,99.4,111.5,23.4,6,Level 2,Commuter
+U1993,Tesla Model Y,75.0,CS595,Workplace,42.73,14.64,2.95,4.85,Evening,Tuesday,29.8,83.3,60.7,4.8,2,Level 1,Casual Driver
+U1994,Chevy Bolt EV,65.0,CS800,Highway,34.1,5.13,6.78,5.91,Evening,Tuesday,33.4,84.3,14.7,12.6,3,Level 2,Commuter
+U1995,Tesla Model 3,75.0,CS166,Highway,51.55,7.25,7.16,12.81,Evening,Thursday,11.9,80.3,16.2,21.3,5,Level 2,Commuter
+U1996,Tesla Model Y,75.0,CS869,Public,30.75,4.59,6.84,6.78,Morning,Thursday,42.3,82.7,41.1,23.9,1,Level 2,Commuter
+U1997,Hyundai Ioniq 5,72.6,CS977,Home,54.95,8.58,6.46,7.45,Afternoon,Friday,16.9,84.5,8.6,-6.9,5,Level 2,Commuter
+U1998,Tesla Model S,100.0,CS742,Highway,44.74,13.7,3.27,6.82,Evening,Saturday,35.3,79.4,227.5,23.5,3,Level 1,Long-Distance Traveler
+U1999,Nissan Leaf,40.0,CS116,Highway,34.01,5.54,6.34,4.96,Night,Monday,16.1,95.3,12.6,2.9,3,Level 2,Commuter
